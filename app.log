@@ -1,0 +1,27 @@
+2023-10-12 01:41:51,090 - app - MainThread - INFO - Begin Creating FFMPEG RTSP Stream Capture Object Group
+2023-10-12 01:41:51,090 - app - MainThread - INFO - Creating FFMPEG RTSP Stream Capture Object Group
+2023-10-12 01:41:51,132 - app.FFMPEGC - MainThread - ERROR - Failed to Probe RTSP Stream
+2023-10-12 01:41:51,133 - app.FFMPEGC - MainThread - ERROR - [Errno 2] No such file or directory: 'ffprobe'
+2023-10-12 01:41:51,133 - app - MainThread - WARNING - exception in creating FFMPEG object pool : retryin in 30 seconds again
+2023-10-12 01:42:21,158 - app.FFMPEGC - MainThread - ERROR - Failed to Probe RTSP Stream
+2023-10-12 01:42:21,159 - app.FFMPEGC - MainThread - ERROR - [Errno 2] No such file or directory: 'ffprobe'
+2023-10-12 01:42:21,160 - app - MainThread - WARNING - exception in creating FFMPEG object pool : retryin in 30 seconds again
+2023-10-12 01:42:51,180 - app.FFMPEGC - MainThread - ERROR - Failed to Probe RTSP Stream
+2023-10-12 01:42:51,181 - app.FFMPEGC - MainThread - ERROR - [Errno 2] No such file or directory: 'ffprobe'
+2023-10-12 01:42:51,181 - app - MainThread - WARNING - exception in creating FFMPEG object pool : retryin in 30 seconds again
+2023-10-12 01:43:21,206 - app.FFMPEGC - MainThread - ERROR - Failed to Probe RTSP Stream
+2023-10-12 01:43:21,208 - app.FFMPEGC - MainThread - ERROR - [Errno 2] No such file or directory: 'ffprobe'
+2023-10-12 01:43:21,209 - app - MainThread - WARNING - exception in creating FFMPEG object pool : retryin in 30 seconds again
+2023-10-12 01:43:51,241 - app.FFMPEGC - MainThread - ERROR - Failed to Probe RTSP Stream
+2023-10-12 01:43:51,242 - app.FFMPEGC - MainThread - ERROR - [Errno 2] No such file or directory: 'ffprobe'
+2023-10-12 01:43:51,243 - app - MainThread - WARNING - exception in creating FFMPEG object pool : retryin in 30 seconds again
+2023-10-12 01:44:21,270 - app.FFMPEGC - MainThread - ERROR - Failed to Probe RTSP Stream
+2023-10-12 01:44:21,271 - app.FFMPEGC - MainThread - ERROR - [Errno 2] No such file or directory: 'ffprobe'
+2023-10-12 01:44:21,272 - app - MainThread - WARNING - exception in creating FFMPEG object pool : retryin in 30 seconds again
+2023-10-12 01:44:51,292 - app.FFMPEGC - MainThread - ERROR - Failed to Probe RTSP Stream
+2023-10-12 01:44:51,293 - app.FFMPEGC - MainThread - ERROR - [Errno 2] No such file or directory: 'ffprobe'
+2023-10-12 01:44:51,294 - app - MainThread - WARNING - exception in creating FFMPEG object pool : retryin in 30 seconds again
+2023-10-12 01:45:21,376 - app.FFMPEGC - MainThread - ERROR - Failed to Probe RTSP Stream
+2023-10-12 01:45:21,379 - app.FFMPEGC - MainThread - ERROR - [Errno 2] No such file or directory: 'ffprobe'
+2023-10-12 01:45:21,379 - app - MainThread - WARNING - exception in creating FFMPEG object pool : retryin in 30 seconds again
+2023-10-12 01:45:51,382 - app - MainThread - INFO - FFMPEG RTSP Stream Capture Object Group of size 0 is created

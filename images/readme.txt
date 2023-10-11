@@ -1,1 +1,0 @@
-This directory stores the images to be sent 

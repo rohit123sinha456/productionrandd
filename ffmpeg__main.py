@@ -5,24 +5,34 @@ import json
 import time
 from threading import Event
 import os
+import logging
+
+
+logging.basicConfig(filename='app.log', level=logging.DEBUG, format='%(asctime)s - %(name)s - %(threadName)s - %(levelname)s - %(message)s')
+logger = logging.getLogger('app')
+
 
 def create_FFMPEG_pool(inferob,api,data):
     rtsp_object_list = []
+    logger.info("Creating FFMPEG RTSP Stream Capture Object Group")
     for camera_config in data['cameras']:
         retry = 0
-        while retry<=3: ## Will Rety to create object for 3 times
+        waittime = 30
+        while retry <= 12: ## Will Rety to create object forever
             try:
                 rtspob = FFMPEGC(inferob,api,camera_config)
                 rtspobevent = Event()
                 rtsp_object_list.append([rtspob,rtspobevent,camera_config])
                 break
             except:
-                print("exception in creating FFMPEG object pool : retryin in 30 seconds again")
-                time.sleep(30)
+                waittime = (waittime * 2 ) % 3600
+                logger.warning("exception in creating FFMPEG object pool : retryin in {} seconds again, retry:- {}/12 ".format(waittime,retry))
+                time.sleep(waittime)
                 retry+=1
-        if (retry == 3):
-            print("Failed to probe RTSP Stream for camera :- ",camera_config['camera'])
-            print("Failed to probe RTSP Stream for URL :- ",camera_config['rtsp_url'])
+        if (retry == 12):
+            logger.error("Failed to probe RTSP Stream for camera :- ",camera_config['camera'])
+            logger.error("Failed to probe RTSP Stream for URL :- ",camera_config['rtsp_url'])
+    logger.info("FFMPEG RTSP Stream Capture Object Group of size {} is created".format(len(rtsp_object_list)))
     return rtsp_object_list
 
 
@@ -30,17 +40,19 @@ def kill_and_respawn_FFMPEG_thread(inferob,api,camera_config):
     retry = 0
     while retry <= 3:
         try:
+            logger.info("Respwaning FFMPEG Capture Object")
             rtspob = FFMPEGC(inferob,api,camera_config)
             rtspobevent = Event()
-            print("Running Threads")
+            logger.info("Running FFMPEG Capture Threads")
             rtspob.run_threads(rtspobevent)
-            print("appending object")
+            logger.info("Successfully Respwaned FFMPEG Capture Object")
             return rtspob,rtspobevent
         except Exception as e:
-            print("Couldn't respawn new FFMPEG Connection, retrying {}/3".format(retry))
-            print(e)
+            logger.error("Couldn't respawn new FFMPEG Connection, retrying {}/3".format(retry))
+            logger.error(e)
             retry+=1
             time.sleep(15)
+    logger.warning("Failed to Respwaned FFMPEG Capture Object")
     return None,None
 
 
@@ -50,25 +62,26 @@ if __name__=="__main__":
     api = API()
     f = open('camera_config.json')
     data = json.load(f)
+    logger.info("Begin Creating FFMPEG RTSP Stream Capture Object Group")
     rtsp_object_list = create_FFMPEG_pool(inferob,api,data)
 
     for rtsp_object,rtspobevent,_ in rtsp_object_list:
         rtsp_object.run_threads(rtspobevent)
     
     while True:
-        print("Object pool----------------------------------------------------------------------")
+        logger.info("Object pool size",len(rtsp_object_list))
         print(rtsp_object_list,len(rtsp_object_list))
         for rtsp_object,rtspob_event,camera_config in rtsp_object_list:
-            print("Queue Thread Status :- ", rtsp_object.QueueThread.is_alive())
+            logger.info("Queue Thread Status :- ", rtsp_object.QueueThread.is_alive())
             if(rtsp_object.QueueThread.is_alive() == False):
-                print("killing Dequeue")
+                logger.info("Killing Failed Thread")
                 rtspob_event.set()
                 # rtsp_object.DequeueThread.join()
-                print("GC Object")
+                logger.info("Removing Failed Object from Object Group")
                 if [rtsp_object,rtspob_event,camera_config] in rtsp_object_list:
                     print("Check and remove rtsp object")
                     rtsp_object_list.remove([rtsp_object,rtspob_event,camera_config])
-                print("Creating New object")
+                logger.info("Begin Respwaning FFMPEG Capture Object")
                 rtspob,rtspobevent = kill_and_respawn_FFMPEG_thread(inferob,api,camera_config)
                 if(rtspob is not None and rtspobevent is not None):
                     rtsp_object_list.append([rtsp_object,rtspob_event,camera_config])
