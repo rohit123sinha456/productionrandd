@@ -69,10 +69,10 @@ if __name__=="__main__":
         rtsp_object.run_threads(rtspobevent)
     
     while True:
-        logger.info("Object pool size",len(rtsp_object_list))
+        logger.info("Object pool size :- {} ".format(len(rtsp_object_list)))
         print(rtsp_object_list,len(rtsp_object_list))
         for rtsp_object,rtspob_event,camera_config in rtsp_object_list:
-            logger.info("Queue Thread Status :- ", rtsp_object.QueueThread.is_alive())
+            logger.info("Queue Thread Status :- {}".format(rtsp_object.QueueThread.is_alive()))
             if(rtsp_object.QueueThread.is_alive() == False):
                 logger.info("Killing Failed Thread")
                 rtspob_event.set()

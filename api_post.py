@@ -24,7 +24,7 @@ class API:
                 self.logger.error("Failed to Post Image to Server")
                 raise e
             try:
-                self.logger.info("Image Saved in server with name :- ",x.json()['data']['fileName'])
+                self.logger.info("Image Saved in server with name :- ".format(x.json()['data']['fileName']))
                 serverfilepath = x.json()['data']['fileName']
                 msgbody = {"dept_name": camera_config['dept_name'],
                            "camera": camera_config['camera'],
