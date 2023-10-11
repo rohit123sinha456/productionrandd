@@ -67,11 +67,15 @@ class FFMPEGC():
                     frame_name = os.path.join('.', self.img_folder, fnmae)
 
                     if(frames is not None):
-                        logging.info("Sending Image")
+                        self.logger.info("Saving Image to Local Storage")
                         cv2.imwrite(frame_name,frames)
-                        self.api.posting(frame_name,self.camera_config)
-                        logging.info("Frame posting done")
-                        
+                        try:
+                            self.api.posting(frame_name,self.camera_config)
+                            self.logger.info("Image Successfully Sent to Server")
+                        except Exception as e:
+                            self.logger.error("Failed to Send Image to Server")
+                            self.logger.error(e)
+                            
             except Exception as e:
                 self.logger.error("Problem with Processing")
                 self.logger.error(e)
