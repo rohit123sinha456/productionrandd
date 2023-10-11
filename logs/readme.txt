@@ -1,0 +1,1 @@
+This folder stored log files in the directory
