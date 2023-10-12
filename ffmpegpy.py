@@ -10,6 +10,7 @@ import ffmpeg
 
 class FFMPEGC():
     def __init__(self,Inference,API,camera_config,MaxRetries=3):
+        self.logger = logging.getLogger('app.FFMPEGC')
         self.inferob = Inference
         self.api = API
         self.camera_config = camera_config
@@ -20,9 +21,10 @@ class FFMPEGC():
         "fflags": "nobuffer",
         "flags": "low_delay"}
         try:
+            self.logger.info("Begin Probing RTSP Stream for camera :- {}".format(camera_config['camera']))
             probe = ffmpeg.probe(self.rtsp_url)
             cap_info = next(x for x in probe['streams'] if x['codec_type'] == 'video')
-            print("fps: {}".format(cap_info['r_frame_rate']))
+            self.logger.info("fps: {}".format(cap_info['r_frame_rate']))
             self.width = cap_info['width']          
             self.height = cap_info['height']
             print(self.width,self.height)
@@ -30,8 +32,8 @@ class FFMPEGC():
             fps = eval(up) / eval(down)
             print("fps: {}".format(fps))   
         except Exception as e:
-            print("failed to Probe RTSP Stream")
-            print(e)
+            self.logger.error("Failed to Probe RTSP Stream")
+            self.logger.error(e)
             raise e
         
         if not os.path.exists(self.img_folder):
@@ -65,15 +67,19 @@ class FFMPEGC():
                     frame_name = os.path.join('.', self.img_folder, fnmae)
 
                     if(frames is not None):
-                        logging.info("Sending Image")
+                        self.logger.info("Saving Image to Local Storage")
                         cv2.imwrite(frame_name,frames)
-                        self.api.posting(frame_name,self.camera_config)
-                        logging.info("Frame posting done")
-                        
+                        try:
+                            self.api.posting(frame_name,self.camera_config)
+                            self.logger.info("Image Successfully Sent to Server")
+                        except Exception as e:
+                            self.logger.error("Failed to Send Image to Server")
+                            self.logger.error(e)
+
             except Exception as e:
-                print("Problem with Processing")
-                print(e)
-        print("Killing FFMPEG Process")
+                self.logger.error("Problem with Processing")
+                self.logger.error(e)
+        self.logger.info("Killing FFMPEG Process")
         self.process1.kill()   
 
     def run_threads(self,event):
