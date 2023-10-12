@@ -23,3 +23,5 @@
 2023-10-12 13:24:19,805 - app - MainThread - INFO - Queue Thread Status :- True
 2023-10-12 13:24:19,805 - app - MainThread - INFO - Queue Thread Status :- True
 2023-10-12 13:24:23,690 - app.FFMPEGC - Thread-5 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:24:39,772 - urllib3.connectionpool - Thread-14 (func) - DEBUG - Starting new HTTPS connection (1): www.google-analytics.com:443
+2023-10-12 13:24:40,143 - urllib3.connectionpool - Thread-14 (func) - DEBUG - https://www.google-analytics.com:443 "POST /mp/collect?measurement_id=G-X8NCJYTQXM&api_secret=QLQrATrNSwGRFRLE-cbHJw HTTP/1.1" 204 0
