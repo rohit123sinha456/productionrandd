@@ -1,22 +1,25 @@
-2023-10-12 11:15:42,083 - app - MainThread - INFO - Begin Creating FFMPEG RTSP Stream Capture Object Group
-2023-10-12 11:15:42,083 - app - MainThread - INFO - Creating FFMPEG RTSP Stream Capture Object Group
-2023-10-12 11:15:42,083 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera10
-2023-10-12 11:20:42,056 - app - MainThread - WARNING - exception in creating FFMPEG object pool : retryin in 60 seconds again, retry:- 0/12 
-2023-10-12 11:29:53,383 - app - MainThread - INFO - Begin Creating FFMPEG RTSP Stream Capture Object Group
-2023-10-12 11:29:53,391 - app - MainThread - INFO - Creating FFMPEG RTSP Stream Capture Object Group
-2023-10-12 11:29:53,391 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera10
-2023-10-12 11:29:59,857 - app - MainThread - WARNING - exception in creating FFMPEG object pool : retryin in 60 seconds again, retry:- 0/12 
-2023-10-12 11:59:58,091 - app - MainThread - INFO - Begin Creating FFMPEG RTSP Stream Capture Object Group
-2023-10-12 11:59:58,091 - app - MainThread - INFO - Creating FFMPEG RTSP Stream Capture Object Group
-2023-10-12 11:59:58,091 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera10
-2023-10-12 11:59:58,107 - app.FFMPEGC - MainThread - ERROR - Failed to Probe RTSP Stream
-2023-10-12 11:59:58,107 - app.FFMPEGC - MainThread - ERROR - [WinError 2] The system cannot find the file specified
-2023-10-12 11:59:58,107 - app - MainThread - WARNING - exception in creating FFMPEG object pool : retryin in 60 seconds again, retry:- 0/12 
-2023-10-12 12:00:58,111 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera10
-2023-10-12 12:00:58,111 - app.FFMPEGC - MainThread - ERROR - Failed to Probe RTSP Stream
-2023-10-12 12:00:58,111 - app.FFMPEGC - MainThread - ERROR - [WinError 2] The system cannot find the file specified
-2023-10-12 12:00:58,111 - app - MainThread - WARNING - exception in creating FFMPEG object pool : retryin in 120 seconds again, retry:- 1/12 
-2023-10-12 12:02:58,118 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera10
-2023-10-12 12:02:58,118 - app.FFMPEGC - MainThread - ERROR - Failed to Probe RTSP Stream
-2023-10-12 12:02:58,118 - app.FFMPEGC - MainThread - ERROR - [WinError 2] The system cannot find the file specified
-2023-10-12 12:02:58,118 - app - MainThread - WARNING - exception in creating FFMPEG object pool : retryin in 240 seconds again, retry:- 2/12 
+2023-10-12 13:23:14,711 - app - MainThread - INFO - Begin Creating FFMPEG RTSP Stream Capture Object Group
+2023-10-12 13:23:14,711 - app - MainThread - INFO - Creating FFMPEG RTSP Stream Capture Object Group
+2023-10-12 13:23:14,711 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera10
+2023-10-12 13:23:14,711 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.215:554/Streaming/Channels/101/
+2023-10-12 13:23:17,364 - app.FFMPEGC - MainThread - INFO - fps: 25/1
+2023-10-12 13:23:17,364 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera11
+2023-10-12 13:23:17,364 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.214:554/Streaming/Channels/101/
+2023-10-12 13:23:19,800 - app.FFMPEGC - MainThread - INFO - fps: 25/1
+2023-10-12 13:23:19,800 - app - MainThread - INFO - FFMPEG RTSP Stream Capture Object Group of size 2 is created
+2023-10-12 13:23:19,800 - app - MainThread - INFO - Object pool size :- 2 
+2023-10-12 13:23:19,800 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-12 13:23:19,800 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-12 13:23:31,466 - tensorflow - Thread-5 (enqueue_frame_buffer) - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2023-10-12 13:23:32,699 - h5py._conv - Thread-5 (enqueue_frame_buffer) - DEBUG - Creating converter from 7 to 5
+2023-10-12 13:23:32,699 - h5py._conv - Thread-5 (enqueue_frame_buffer) - DEBUG - Creating converter from 5 to 7
+2023-10-12 13:23:32,699 - h5py._conv - Thread-5 (enqueue_frame_buffer) - DEBUG - Creating converter from 7 to 5
+2023-10-12 13:23:32,699 - h5py._conv - Thread-5 (enqueue_frame_buffer) - DEBUG - Creating converter from 5 to 7
+2023-10-12 13:23:39,693 - app.FFMPEGC - Thread-5 (enqueue_frame_buffer) - ERROR - Problem with Processing
+2023-10-12 13:23:39,693 - app.FFMPEGC - Thread-5 (enqueue_frame_buffer) - ERROR - 'Conv' object has no attribute 'bn'
+2023-10-12 13:23:39,779 - urllib3.connectionpool - Thread-13 (func) - DEBUG - Starting new HTTPS connection (1): www.google-analytics.com:443
+2023-10-12 13:23:40,477 - urllib3.connectionpool - Thread-13 (func) - DEBUG - https://www.google-analytics.com:443 "POST /mp/collect?measurement_id=G-X8NCJYTQXM&api_secret=QLQrATrNSwGRFRLE-cbHJw HTTP/1.1" 204 0
+2023-10-12 13:24:19,805 - app - MainThread - INFO - Object pool size :- 2 
+2023-10-12 13:24:19,805 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-12 13:24:19,805 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-12 13:24:23,690 - app.FFMPEGC - Thread-5 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process

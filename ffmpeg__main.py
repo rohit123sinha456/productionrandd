@@ -87,4 +87,3 @@ if __name__=="__main__":
                     rtsp_object_list.append([rtsp_object,rtspob_event,camera_config])
             
         time.sleep(60)
-    

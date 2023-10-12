@@ -22,6 +22,7 @@ class FFMPEGC():
         "flags": "low_delay"}
         try:
             self.logger.info("Begin Probing RTSP Stream for camera :- {}".format(camera_config['camera']))
+            self.logger.info("Begin Probing RTSP Stream with url :- {}".format(camera_config['rtsp_url']))
             probe = ffmpeg.probe(self.rtsp_url)
             cap_info = next(x for x in probe['streams'] if x['codec_type'] == 'video')
             self.logger.info("fps: {}".format(cap_info['r_frame_rate']))

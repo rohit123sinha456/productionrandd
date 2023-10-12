@@ -5,6 +5,7 @@ pip 22.3.1
 2. Create virtual environment
 3. install dependencies
 4. configure cameras and config file respectively
+5. put ffmpeg,ffplay and ffprobe exe in the environment
 ## To create Service for Windows :-
 1. Download nssm[https://stackoverflow.com/questions/32404/how-do-you-run-a-python-script-as-a-service-in-windows]
 2. Add nssm to environment.
@@ -12,3 +13,4 @@ pip 22.3.1
     - Path to python is the environment python Path
     - AppDirectry is the project direcctory
     - Arguments is the ffmpeg__main.py file path.
+    - Environment Path=<path to ffmpeg_bin>
