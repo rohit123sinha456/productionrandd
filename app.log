@@ -179,3 +179,744 @@
 2023-10-12 13:31:02,683 - app.FFMPEGC - Thread-39 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
 2023-10-12 13:31:10,640 - app.FFMPEGC - Thread-50 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
 2023-10-12 13:31:11,827 - app.FFMPEGC - Thread-47 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:31:43,256 - urllib3.connectionpool - Thread-51 (func) - DEBUG - Starting new HTTPS connection (1): www.google-analytics.com:443
+2023-10-12 13:31:43,687 - urllib3.connectionpool - Thread-51 (func) - DEBUG - https://www.google-analytics.com:443 "POST /mp/collect?measurement_id=G-X8NCJYTQXM&api_secret=QLQrATrNSwGRFRLE-cbHJw HTTP/1.1" 204 0
+2023-10-12 13:31:49,191 - app - MainThread - INFO - Object pool size :- 2 
+2023-10-12 13:31:49,191 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-12 13:31:49,191 - app - MainThread - INFO - Killing Failed Thread
+2023-10-12 13:31:49,191 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-12 13:31:49,191 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-12 13:31:49,191 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-12 13:31:49,191 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera10
+2023-10-12 13:31:49,191 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.215:554/Streaming/Channels/101/
+2023-10-12 13:31:51,851 - app.FFMPEGC - MainThread - INFO - fps: 25/1
+2023-10-12 13:31:51,852 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-12 13:31:51,854 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-12 13:31:51,854 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-12 13:31:51,854 - app - MainThread - INFO - Killing Failed Thread
+2023-10-12 13:31:51,855 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-12 13:31:51,855 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-12 13:31:51,855 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-12 13:31:51,855 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera10
+2023-10-12 13:31:51,855 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.215:554/Streaming/Channels/101/
+2023-10-12 13:31:54,528 - app.FFMPEGC - MainThread - INFO - fps: 25/1
+2023-10-12 13:31:54,528 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-12 13:31:54,528 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-12 13:31:58,555 - app.FFMPEGC - Thread-54 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-12 13:31:58,586 - app.API - Thread-54 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-12 13:31:58,588 - urllib3.connectionpool - Thread-54 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-12 13:32:16,329 - app.FFMPEGC - Thread-57 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:32:19,919 - app.API - Thread-54 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-12 13:32:19,919 - app.FFMPEGC - Thread-54 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-12 13:32:19,919 - app.FFMPEGC - Thread-54 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001C6561418D0>, 'Connection to 10.12.1.151 timed out. (connect timeout=None)'))
+2023-10-12 13:32:33,652 - app.FFMPEGC - Thread-42 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:32:43,287 - urllib3.connectionpool - Thread-58 (func) - DEBUG - Starting new HTTPS connection (1): www.google-analytics.com:443
+2023-10-12 13:32:43,614 - urllib3.connectionpool - Thread-58 (func) - DEBUG - https://www.google-analytics.com:443 "POST /mp/collect?measurement_id=G-X8NCJYTQXM&api_secret=QLQrATrNSwGRFRLE-cbHJw HTTP/1.1" 204 0
+2023-10-12 13:32:54,531 - app - MainThread - INFO - Object pool size :- 2 
+2023-10-12 13:32:54,531 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-12 13:32:54,532 - app - MainThread - INFO - Killing Failed Thread
+2023-10-12 13:32:54,532 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-12 13:32:54,533 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-12 13:32:54,533 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-12 13:32:54,533 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera11
+2023-10-12 13:32:54,533 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.214:554/Streaming/Channels/101/
+2023-10-12 13:32:57,776 - app.FFMPEGC - MainThread - INFO - fps: 299/12
+2023-10-12 13:32:57,776 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-12 13:32:57,778 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-12 13:32:57,778 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-12 13:32:57,778 - app - MainThread - INFO - Killing Failed Thread
+2023-10-12 13:32:57,778 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-12 13:32:57,779 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-12 13:32:57,779 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-12 13:32:57,779 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera11
+2023-10-12 13:32:57,779 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.214:554/Streaming/Channels/101/
+2023-10-12 13:33:00,502 - app.FFMPEGC - MainThread - INFO - fps: 25/1
+2023-10-12 13:33:00,502 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-12 13:33:00,502 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-12 13:33:37,413 - app.FFMPEGC - Thread-54 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-12 13:33:37,447 - app.API - Thread-54 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-12 13:33:37,448 - urllib3.connectionpool - Thread-54 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-12 13:33:43,313 - urllib3.connectionpool - Thread-65 (func) - DEBUG - Starting new HTTPS connection (1): www.google-analytics.com:443
+2023-10-12 13:33:43,641 - urllib3.connectionpool - Thread-65 (func) - DEBUG - https://www.google-analytics.com:443 "POST /mp/collect?measurement_id=G-X8NCJYTQXM&api_secret=QLQrATrNSwGRFRLE-cbHJw HTTP/1.1" 204 0
+2023-10-12 13:33:58,921 - app.API - Thread-54 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-12 13:33:58,921 - app.FFMPEGC - Thread-54 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-12 13:33:58,921 - app.FFMPEGC - Thread-54 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001C64CBE98D0>, 'Connection to 10.12.1.151 timed out. (connect timeout=None)'))
+2023-10-12 13:33:59,194 - app.FFMPEGC - Thread-54 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:34:00,506 - app - MainThread - INFO - Object pool size :- 2 
+2023-10-12 13:34:00,506 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-12 13:34:00,506 - app - MainThread - INFO - Killing Failed Thread
+2023-10-12 13:34:00,506 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-12 13:34:00,506 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-12 13:34:00,506 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-12 13:34:00,507 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera10
+2023-10-12 13:34:00,507 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.215:554/Streaming/Channels/101/
+2023-10-12 13:34:03,600 - app.FFMPEGC - MainThread - INFO - fps: 25/1
+2023-10-12 13:34:03,601 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-12 13:34:03,602 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-12 13:34:03,602 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-12 13:34:03,603 - app - MainThread - INFO - Killing Failed Thread
+2023-10-12 13:34:03,603 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-12 13:34:03,603 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-12 13:34:03,603 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-12 13:34:03,603 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera10
+2023-10-12 13:34:03,603 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.215:554/Streaming/Channels/101/
+2023-10-12 13:34:07,667 - app.FFMPEGC - MainThread - INFO - fps: 299/12
+2023-10-12 13:34:07,667 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-12 13:34:07,667 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-12 13:34:09,520 - app.FFMPEGC - Thread-68 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-12 13:34:09,563 - app.API - Thread-68 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-12 13:34:09,566 - urllib3.connectionpool - Thread-68 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-12 13:34:15,228 - app.FFMPEGC - Thread-71 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-12 13:34:15,258 - app.API - Thread-71 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-12 13:34:15,260 - urllib3.connectionpool - Thread-71 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-12 13:34:31,119 - app.API - Thread-68 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-12 13:34:31,119 - app.FFMPEGC - Thread-68 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-12 13:34:31,119 - app.FFMPEGC - Thread-68 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001C64CC19110>, 'Connection to 10.12.1.151 timed out. (connect timeout=None)'))
+2023-10-12 13:34:32,873 - app.FFMPEGC - Thread-68 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-12 13:34:32,912 - app.API - Thread-68 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-12 13:34:32,916 - urllib3.connectionpool - Thread-68 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-12 13:34:36,519 - app.API - Thread-71 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-12 13:34:36,519 - app.FFMPEGC - Thread-71 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-12 13:34:36,519 - app.FFMPEGC - Thread-71 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001C64CBE98D0>, 'Connection to 10.12.1.151 timed out. (connect timeout=None)'))
+2023-10-12 13:34:38,295 - app.FFMPEGC - Thread-71 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-12 13:34:38,342 - app.API - Thread-71 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-12 13:34:38,345 - urllib3.connectionpool - Thread-71 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-12 13:34:43,357 - urllib3.connectionpool - Thread-72 (func) - DEBUG - Starting new HTTPS connection (1): www.google-analytics.com:443
+2023-10-12 13:34:43,725 - urllib3.connectionpool - Thread-72 (func) - DEBUG - https://www.google-analytics.com:443 "POST /mp/collect?measurement_id=G-X8NCJYTQXM&api_secret=QLQrATrNSwGRFRLE-cbHJw HTTP/1.1" 204 0
+2023-10-12 13:34:50,046 - app.FFMPEGC - Thread-61 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:34:50,398 - app.FFMPEGC - Thread-64 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:34:54,391 - app.API - Thread-68 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-12 13:34:54,391 - app.FFMPEGC - Thread-68 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-12 13:34:54,391 - app.FFMPEGC - Thread-68 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001C64CBDE950>, 'Connection to 10.12.1.151 timed out. (connect timeout=None)'))
+2023-10-12 13:34:59,532 - app.API - Thread-71 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-12 13:34:59,532 - app.FFMPEGC - Thread-71 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-12 13:34:59,532 - app.FFMPEGC - Thread-71 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001C64CC192D0>, 'Connection to 10.12.1.151 timed out. (connect timeout=None)'))
+2023-10-12 13:35:05,413 - app.FFMPEGC - Thread-71 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:35:07,670 - app - MainThread - INFO - Object pool size :- 2 
+2023-10-12 13:35:07,670 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-12 13:35:07,671 - app - MainThread - INFO - Killing Failed Thread
+2023-10-12 13:35:07,671 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-12 13:35:07,671 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-12 13:35:07,671 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-12 13:35:07,671 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera11
+2023-10-12 13:35:07,671 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.214:554/Streaming/Channels/101/
+2023-10-12 13:35:10,320 - app.FFMPEGC - MainThread - INFO - fps: 299/12
+2023-10-12 13:35:10,320 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-12 13:35:10,320 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-12 13:35:10,320 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-12 13:35:10,320 - app - MainThread - INFO - Killing Failed Thread
+2023-10-12 13:35:10,320 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-12 13:35:10,320 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-12 13:35:10,320 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-12 13:35:10,320 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera11
+2023-10-12 13:35:10,320 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.214:554/Streaming/Channels/101/
+2023-10-12 13:35:13,030 - app.FFMPEGC - MainThread - INFO - fps: 25/1
+2023-10-12 13:35:13,032 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-12 13:35:13,032 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-12 13:35:15,798 - app.FFMPEGC - Thread-68 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-12 13:35:15,828 - app.API - Thread-68 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-12 13:35:15,830 - urllib3.connectionpool - Thread-68 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-12 13:35:37,422 - app.API - Thread-68 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-12 13:35:37,422 - app.FFMPEGC - Thread-68 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-12 13:35:37,422 - app.FFMPEGC - Thread-68 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001C64CC498D0>, 'Connection to 10.12.1.151 timed out. (connect timeout=None)'))
+2023-10-12 13:35:43,385 - urllib3.connectionpool - Thread-79 (func) - DEBUG - Starting new HTTPS connection (1): www.google-analytics.com:443
+2023-10-12 13:35:43,710 - urllib3.connectionpool - Thread-79 (func) - DEBUG - https://www.google-analytics.com:443 "POST /mp/collect?measurement_id=G-X8NCJYTQXM&api_secret=QLQrATrNSwGRFRLE-cbHJw HTTP/1.1" 204 0
+2023-10-12 13:35:46,652 - app.FFMPEGC - Thread-68 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-12 13:35:46,687 - app.API - Thread-68 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-12 13:35:46,687 - urllib3.connectionpool - Thread-68 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-12 13:35:55,849 - app.FFMPEGC - Thread-78 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:36:08,090 - app.API - Thread-68 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-12 13:36:08,091 - app.FFMPEGC - Thread-68 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-12 13:36:08,091 - app.FFMPEGC - Thread-68 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001C6561418D0>, 'Connection to 10.12.1.151 timed out. (connect timeout=None)'))
+2023-10-12 13:36:13,034 - app - MainThread - INFO - Object pool size :- 2 
+2023-10-12 13:36:13,034 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-12 13:36:13,034 - app - MainThread - INFO - Killing Failed Thread
+2023-10-12 13:36:13,034 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-12 13:36:13,034 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-12 13:36:13,035 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-12 13:36:13,035 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera10
+2023-10-12 13:36:13,035 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.215:554/Streaming/Channels/101/
+2023-10-12 13:36:16,283 - app.FFMPEGC - MainThread - INFO - fps: 299/12
+2023-10-12 13:36:16,284 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-12 13:36:16,284 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-12 13:36:16,284 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-12 13:36:16,284 - app - MainThread - INFO - Killing Failed Thread
+2023-10-12 13:36:16,284 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-12 13:36:16,286 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-12 13:36:16,286 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-12 13:36:16,286 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera10
+2023-10-12 13:36:16,286 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.215:554/Streaming/Channels/101/
+2023-10-12 13:36:17,038 - app.FFMPEGC - Thread-68 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-12 13:36:17,077 - app.API - Thread-68 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-12 13:36:17,079 - urllib3.connectionpool - Thread-68 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-12 13:36:20,344 - app.FFMPEGC - MainThread - INFO - fps: 299/12
+2023-10-12 13:36:20,344 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-12 13:36:20,347 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-12 13:36:37,826 - app.FFMPEGC - Thread-75 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:36:38,331 - app.API - Thread-68 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-12 13:36:38,331 - app.FFMPEGC - Thread-68 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-12 13:36:38,331 - app.FFMPEGC - Thread-68 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001C64CC32DD0>, 'Connection to 10.12.1.151 timed out. (connect timeout=None)'))
+2023-10-12 13:36:43,473 - urllib3.connectionpool - Thread-86 (func) - DEBUG - Starting new HTTPS connection (1): www.google-analytics.com:443
+2023-10-12 13:36:43,474 - urllib3.connectionpool - Thread-87 (func) - DEBUG - Starting new HTTPS connection (1): www.google-analytics.com:443
+2023-10-12 13:36:43,798 - urllib3.connectionpool - Thread-87 (func) - DEBUG - https://www.google-analytics.com:443 "POST /mp/collect?measurement_id=G-X8NCJYTQXM&api_secret=QLQrATrNSwGRFRLE-cbHJw HTTP/1.1" 204 0
+2023-10-12 13:36:43,798 - urllib3.connectionpool - Thread-86 (func) - DEBUG - https://www.google-analytics.com:443 "POST /mp/collect?measurement_id=G-X8NCJYTQXM&api_secret=QLQrATrNSwGRFRLE-cbHJw HTTP/1.1" 204 0
+2023-10-12 13:36:47,373 - app.FFMPEGC - Thread-82 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:36:48,622 - app.FFMPEGC - Thread-85 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:37:20,348 - app - MainThread - INFO - Object pool size :- 2 
+2023-10-12 13:37:20,348 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-12 13:37:20,348 - app - MainThread - INFO - Killing Failed Thread
+2023-10-12 13:37:20,348 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-12 13:37:20,348 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-12 13:37:20,348 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-12 13:37:20,348 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera11
+2023-10-12 13:37:20,348 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.214:554/Streaming/Channels/101/
+2023-10-12 13:37:22,962 - app.FFMPEGC - MainThread - INFO - fps: 25/1
+2023-10-12 13:37:22,962 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-12 13:37:22,962 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-12 13:37:22,962 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-12 13:37:22,962 - app - MainThread - INFO - Killing Failed Thread
+2023-10-12 13:37:22,962 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-12 13:37:22,962 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-12 13:37:22,962 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-12 13:37:22,962 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera11
+2023-10-12 13:37:22,962 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.214:554/Streaming/Channels/101/
+2023-10-12 13:37:25,697 - app.FFMPEGC - MainThread - INFO - fps: 25/1
+2023-10-12 13:37:25,699 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-12 13:37:25,699 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-12 13:37:41,109 - app.FFMPEGC - Thread-93 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:37:43,551 - urllib3.connectionpool - Thread-94 (func) - DEBUG - Starting new HTTPS connection (1): www.google-analytics.com:443
+2023-10-12 13:37:43,708 - app.FFMPEGC - Thread-68 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-12 13:37:43,739 - app.API - Thread-68 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-12 13:37:43,740 - urllib3.connectionpool - Thread-68 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-12 13:37:43,879 - urllib3.connectionpool - Thread-94 (func) - DEBUG - https://www.google-analytics.com:443 "POST /mp/collect?measurement_id=G-X8NCJYTQXM&api_secret=QLQrATrNSwGRFRLE-cbHJw HTTP/1.1" 204 0
+2023-10-12 13:38:04,883 - app.API - Thread-68 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-12 13:38:04,883 - app.FFMPEGC - Thread-68 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-12 13:38:04,883 - app.FFMPEGC - Thread-68 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001C64CC318D0>, 'Connection to 10.12.1.151 timed out. (connect timeout=None)'))
+2023-10-12 13:38:16,872 - app.FFMPEGC - Thread-68 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-12 13:38:16,900 - app.API - Thread-68 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-12 13:38:16,902 - urllib3.connectionpool - Thread-68 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-12 13:38:25,701 - app - MainThread - INFO - Object pool size :- 2 
+2023-10-12 13:38:25,701 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-12 13:38:25,701 - app - MainThread - INFO - Killing Failed Thread
+2023-10-12 13:38:25,701 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-12 13:38:25,701 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-12 13:38:25,701 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-12 13:38:25,701 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera10
+2023-10-12 13:38:25,701 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.215:554/Streaming/Channels/101/
+2023-10-12 13:38:28,324 - app.FFMPEGC - MainThread - INFO - fps: 25/1
+2023-10-12 13:38:28,324 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-12 13:38:28,326 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-12 13:38:28,327 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-12 13:38:28,327 - app - MainThread - INFO - Killing Failed Thread
+2023-10-12 13:38:28,327 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-12 13:38:28,327 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-12 13:38:28,327 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-12 13:38:28,328 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera10
+2023-10-12 13:38:28,328 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.215:554/Streaming/Channels/101/
+2023-10-12 13:38:31,064 - app.FFMPEGC - MainThread - INFO - fps: 25/1
+2023-10-12 13:38:31,064 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-12 13:38:31,066 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-12 13:38:38,033 - app.API - Thread-68 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-12 13:38:38,033 - app.FFMPEGC - Thread-68 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-12 13:38:38,033 - app.FFMPEGC - Thread-68 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001C64CC49B10>, 'Connection to 10.12.1.151 timed out. (connect timeout=None)'))
+2023-10-12 13:38:38,417 - app.FFMPEGC - Thread-90 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:38:43,556 - urllib3.connectionpool - Thread-101 (func) - DEBUG - Starting new HTTPS connection (1): www.google-analytics.com:443
+2023-10-12 13:38:43,877 - urllib3.connectionpool - Thread-101 (func) - DEBUG - https://www.google-analytics.com:443 "POST /mp/collect?measurement_id=G-X8NCJYTQXM&api_secret=QLQrATrNSwGRFRLE-cbHJw HTTP/1.1" 204 0
+2023-10-12 13:39:00,038 - app.FFMPEGC - Thread-100 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:39:27,602 - app.FFMPEGC - Thread-97 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-12 13:39:27,644 - app.API - Thread-97 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-12 13:39:27,645 - urllib3.connectionpool - Thread-97 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-12 13:39:31,067 - app - MainThread - INFO - Object pool size :- 2 
+2023-10-12 13:39:31,067 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-12 13:39:31,067 - app - MainThread - INFO - Killing Failed Thread
+2023-10-12 13:39:31,067 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-12 13:39:31,067 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-12 13:39:31,067 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-12 13:39:31,067 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera11
+2023-10-12 13:39:31,067 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.214:554/Streaming/Channels/101/
+2023-10-12 13:39:33,649 - app.FFMPEGC - MainThread - INFO - fps: 25/1
+2023-10-12 13:39:33,649 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-12 13:39:33,649 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-12 13:39:33,649 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-12 13:39:33,649 - app - MainThread - INFO - Killing Failed Thread
+2023-10-12 13:39:33,649 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-12 13:39:33,651 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-12 13:39:33,651 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-12 13:39:33,651 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera11
+2023-10-12 13:39:33,651 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.214:554/Streaming/Channels/101/
+2023-10-12 13:39:37,518 - app.FFMPEGC - MainThread - INFO - fps: 25/1
+2023-10-12 13:39:37,519 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-12 13:39:37,520 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-12 13:39:43,577 - urllib3.connectionpool - Thread-108 (func) - DEBUG - Starting new HTTPS connection (1): www.google-analytics.com:443
+2023-10-12 13:39:44,014 - urllib3.connectionpool - Thread-108 (func) - DEBUG - https://www.google-analytics.com:443 "POST /mp/collect?measurement_id=G-X8NCJYTQXM&api_secret=QLQrATrNSwGRFRLE-cbHJw HTTP/1.1" 204 0
+2023-10-12 13:39:44,227 - app.FFMPEGC - Thread-68 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-12 13:39:44,262 - app.API - Thread-68 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-12 13:39:44,262 - urllib3.connectionpool - Thread-68 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-12 13:39:48,798 - app.API - Thread-97 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-12 13:39:48,799 - app.FFMPEGC - Thread-97 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-12 13:39:48,799 - app.FFMPEGC - Thread-97 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001C64CC5DF10>, 'Connection to 10.12.1.151 timed out. (connect timeout=None)'))
+2023-10-12 13:39:49,747 - app.FFMPEGC - Thread-97 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-12 13:39:49,785 - app.API - Thread-97 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-12 13:39:49,787 - urllib3.connectionpool - Thread-97 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-12 13:40:03,921 - app.FFMPEGC - Thread-104 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:40:05,889 - app.API - Thread-68 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-12 13:40:05,889 - app.FFMPEGC - Thread-68 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-12 13:40:05,889 - app.FFMPEGC - Thread-68 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001C6537AEB90>, 'Connection to 10.12.1.151 timed out. (connect timeout=None)'))
+2023-10-12 13:40:06,553 - app.FFMPEGC - Thread-107 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:40:06,605 - app.FFMPEGC - Thread-68 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-12 13:40:06,632 - app.API - Thread-68 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-12 13:40:06,634 - urllib3.connectionpool - Thread-68 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-12 13:40:11,066 - app.API - Thread-97 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-12 13:40:11,066 - app.FFMPEGC - Thread-97 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-12 13:40:11,066 - app.FFMPEGC - Thread-97 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001C64CC498D0>, 'Connection to 10.12.1.151 timed out. (connect timeout=None)'))
+2023-10-12 13:40:11,567 - app.FFMPEGC - Thread-97 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-12 13:40:11,588 - app.API - Thread-97 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-12 13:40:11,588 - urllib3.connectionpool - Thread-97 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-12 13:40:27,686 - app.API - Thread-68 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-12 13:40:27,686 - app.FFMPEGC - Thread-68 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-12 13:40:27,686 - app.FFMPEGC - Thread-68 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001C64CC198D0>, 'Connection to 10.12.1.151 timed out. (connect timeout=None)'))
+2023-10-12 13:40:28,304 - app.FFMPEGC - Thread-68 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:40:32,638 - app.API - Thread-97 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-12 13:40:32,638 - app.FFMPEGC - Thread-97 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-12 13:40:32,638 - app.FFMPEGC - Thread-97 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001C64CC31310>, 'Connection to 10.12.1.151 timed out. (connect timeout=None)'))
+2023-10-12 13:40:33,896 - app.FFMPEGC - Thread-97 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:40:37,520 - app - MainThread - INFO - Object pool size :- 2 
+2023-10-12 13:40:37,520 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-12 13:40:37,520 - app - MainThread - INFO - Killing Failed Thread
+2023-10-12 13:40:37,520 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-12 13:40:37,520 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-12 13:40:37,520 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-12 13:40:37,520 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera10
+2023-10-12 13:40:37,520 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.215:554/Streaming/Channels/101/
+2023-10-12 13:40:39,940 - app.FFMPEGC - MainThread - INFO - fps: 299/12
+2023-10-12 13:40:39,940 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-12 13:40:39,940 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-12 13:40:39,940 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-12 13:40:39,940 - app - MainThread - INFO - Killing Failed Thread
+2023-10-12 13:40:39,940 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-12 13:40:39,940 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-12 13:40:39,940 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-12 13:40:39,940 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera10
+2023-10-12 13:40:39,940 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.215:554/Streaming/Channels/101/
+2023-10-12 13:40:42,686 - app.FFMPEGC - MainThread - INFO - fps: 299/12
+2023-10-12 13:40:42,686 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-12 13:40:42,686 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-12 13:40:43,805 - urllib3.connectionpool - Thread-115 (func) - DEBUG - Starting new HTTPS connection (1): www.google-analytics.com:443
+2023-10-12 13:40:44,198 - urllib3.connectionpool - Thread-115 (func) - DEBUG - https://www.google-analytics.com:443 "POST /mp/collect?measurement_id=G-X8NCJYTQXM&api_secret=QLQrATrNSwGRFRLE-cbHJw HTTP/1.1" 204 0
+2023-10-12 13:41:06,036 - app.FFMPEGC - Thread-111 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:41:07,718 - app.FFMPEGC - Thread-114 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:41:42,701 - app - MainThread - INFO - Object pool size :- 2 
+2023-10-12 13:41:42,701 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-12 13:41:42,701 - app - MainThread - INFO - Killing Failed Thread
+2023-10-12 13:41:42,701 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-12 13:41:42,701 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-12 13:41:42,701 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-12 13:41:42,701 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera11
+2023-10-12 13:41:42,701 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.214:554/Streaming/Channels/101/
+2023-10-12 13:41:45,139 - app.FFMPEGC - MainThread - INFO - fps: 299/12
+2023-10-12 13:41:45,139 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-12 13:41:45,139 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-12 13:41:45,139 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-12 13:41:45,139 - app - MainThread - INFO - Killing Failed Thread
+2023-10-12 13:41:45,139 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-12 13:41:45,139 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-12 13:41:45,139 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-12 13:41:45,139 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera11
+2023-10-12 13:41:45,139 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.214:554/Streaming/Channels/101/
+2023-10-12 13:41:47,980 - app.FFMPEGC - MainThread - INFO - fps: 25/1
+2023-10-12 13:41:47,980 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-12 13:41:47,980 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-12 13:41:49,021 - urllib3.connectionpool - Thread-122 (func) - DEBUG - Starting new HTTPS connection (1): www.google-analytics.com:443
+2023-10-12 13:41:49,386 - urllib3.connectionpool - Thread-122 (func) - DEBUG - https://www.google-analytics.com:443 "POST /mp/collect?measurement_id=G-X8NCJYTQXM&api_secret=QLQrATrNSwGRFRLE-cbHJw HTTP/1.1" 204 0
+2023-10-12 13:42:07,121 - app.FFMPEGC - Thread-118 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:42:14,092 - app.FFMPEGC - Thread-121 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:42:47,984 - app - MainThread - INFO - Object pool size :- 2 
+2023-10-12 13:42:47,984 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-12 13:42:47,984 - app - MainThread - INFO - Killing Failed Thread
+2023-10-12 13:42:47,984 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-12 13:42:47,984 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-12 13:42:47,984 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-12 13:42:47,984 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera10
+2023-10-12 13:42:47,984 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.215:554/Streaming/Channels/101/
+2023-10-12 13:42:50,431 - app.FFMPEGC - MainThread - INFO - fps: 299/12
+2023-10-12 13:42:50,431 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-12 13:42:50,431 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-12 13:42:50,431 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-12 13:42:50,431 - app - MainThread - INFO - Killing Failed Thread
+2023-10-12 13:42:50,431 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-12 13:42:50,431 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-12 13:42:50,431 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-12 13:42:50,431 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera10
+2023-10-12 13:42:50,431 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.215:554/Streaming/Channels/101/
+2023-10-12 13:42:53,198 - app.FFMPEGC - MainThread - INFO - fps: 299/12
+2023-10-12 13:42:53,198 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-12 13:42:53,198 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-12 13:42:54,333 - urllib3.connectionpool - Thread-129 (func) - DEBUG - Starting new HTTPS connection (1): www.google-analytics.com:443
+2023-10-12 13:42:54,649 - urllib3.connectionpool - Thread-129 (func) - DEBUG - https://www.google-analytics.com:443 "POST /mp/collect?measurement_id=G-X8NCJYTQXM&api_secret=QLQrATrNSwGRFRLE-cbHJw HTTP/1.1" 204 0
+2023-10-12 13:42:54,906 - app.FFMPEGC - Thread-125 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-12 13:42:54,936 - app.API - Thread-125 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-12 13:42:54,937 - urllib3.connectionpool - Thread-125 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-12 13:43:15,968 - app.API - Thread-125 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-12 13:43:15,969 - app.FFMPEGC - Thread-125 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-12 13:43:15,969 - app.FFMPEGC - Thread-125 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001C65616D0D0>, 'Connection to 10.12.1.151 timed out. (connect timeout=None)'))
+2023-10-12 13:43:16,061 - app.FFMPEGC - Thread-128 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:43:29,621 - app.FFMPEGC - Thread-125 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:43:53,202 - app - MainThread - INFO - Object pool size :- 2 
+2023-10-12 13:43:53,202 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-12 13:43:53,202 - app - MainThread - INFO - Killing Failed Thread
+2023-10-12 13:43:53,202 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-12 13:43:53,202 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-12 13:43:53,202 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-12 13:43:53,202 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera11
+2023-10-12 13:43:53,202 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.214:554/Streaming/Channels/101/
+2023-10-12 13:43:55,666 - app.FFMPEGC - MainThread - INFO - fps: 299/12
+2023-10-12 13:43:55,666 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-12 13:43:55,666 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-12 13:43:55,666 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-12 13:43:55,666 - app - MainThread - INFO - Killing Failed Thread
+2023-10-12 13:43:55,666 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-12 13:43:55,666 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-12 13:43:55,666 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-12 13:43:55,666 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera11
+2023-10-12 13:43:55,666 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.214:554/Streaming/Channels/101/
+2023-10-12 13:43:58,381 - app.FFMPEGC - MainThread - INFO - fps: 25/1
+2023-10-12 13:43:58,381 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-12 13:43:58,381 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-12 13:43:59,453 - urllib3.connectionpool - Thread-136 (func) - DEBUG - Starting new HTTPS connection (1): www.google-analytics.com:443
+2023-10-12 13:43:59,760 - urllib3.connectionpool - Thread-136 (func) - DEBUG - https://www.google-analytics.com:443 "POST /mp/collect?measurement_id=G-X8NCJYTQXM&api_secret=QLQrATrNSwGRFRLE-cbHJw HTTP/1.1" 204 0
+2023-10-12 13:44:24,304 - app.FFMPEGC - Thread-135 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:44:26,747 - app.FFMPEGC - Thread-132 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:44:58,385 - app - MainThread - INFO - Object pool size :- 2 
+2023-10-12 13:44:58,385 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-12 13:44:58,385 - app - MainThread - INFO - Killing Failed Thread
+2023-10-12 13:44:58,385 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-12 13:44:58,385 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-12 13:44:58,385 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-12 13:44:58,385 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera10
+2023-10-12 13:44:58,385 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.215:554/Streaming/Channels/101/
+2023-10-12 13:45:00,846 - app.FFMPEGC - MainThread - INFO - fps: 25/1
+2023-10-12 13:45:00,846 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-12 13:45:00,846 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-12 13:45:00,846 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-12 13:45:00,846 - app - MainThread - INFO - Killing Failed Thread
+2023-10-12 13:45:00,846 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-12 13:45:00,846 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-12 13:45:00,846 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-12 13:45:00,846 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera10
+2023-10-12 13:45:00,846 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.215:554/Streaming/Channels/101/
+2023-10-12 13:45:03,658 - app.FFMPEGC - MainThread - INFO - fps: 299/12
+2023-10-12 13:45:03,658 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-12 13:45:03,674 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-12 13:45:04,716 - urllib3.connectionpool - Thread-143 (func) - DEBUG - Starting new HTTPS connection (1): www.google-analytics.com:443
+2023-10-12 13:45:05,094 - urllib3.connectionpool - Thread-143 (func) - DEBUG - https://www.google-analytics.com:443 "POST /mp/collect?measurement_id=G-X8NCJYTQXM&api_secret=QLQrATrNSwGRFRLE-cbHJw HTTP/1.1" 204 0
+2023-10-12 13:45:05,377 - app.FFMPEGC - Thread-139 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-12 13:45:05,398 - app.API - Thread-139 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-12 13:45:05,398 - urllib3.connectionpool - Thread-139 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-12 13:45:07,811 - app.FFMPEGC - Thread-142 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-12 13:45:07,831 - app.API - Thread-142 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-12 13:45:07,831 - urllib3.connectionpool - Thread-142 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-12 13:45:26,447 - app.API - Thread-139 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-12 13:45:26,447 - app.FFMPEGC - Thread-139 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-12 13:45:26,447 - app.FFMPEGC - Thread-139 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001C64CC498D0>, 'Connection to 10.12.1.151 timed out. (connect timeout=None)'))
+2023-10-12 13:45:27,439 - app.FFMPEGC - Thread-139 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-12 13:45:27,461 - app.API - Thread-139 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-12 13:45:27,467 - urllib3.connectionpool - Thread-139 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-12 13:45:28,871 - app.API - Thread-142 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-12 13:45:28,871 - app.FFMPEGC - Thread-142 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-12 13:45:28,871 - app.FFMPEGC - Thread-142 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001C64CC5CF90>, 'Connection to 10.12.1.151 timed out. (connect timeout=None)'))
+2023-10-12 13:45:35,489 - app.FFMPEGC - Thread-142 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:45:48,502 - app.API - Thread-139 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-12 13:45:48,502 - app.FFMPEGC - Thread-139 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-12 13:45:48,502 - app.FFMPEGC - Thread-139 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001C6539ADD10>, 'Connection to 10.12.1.151 timed out. (connect timeout=None)'))
+2023-10-12 13:45:48,984 - app.FFMPEGC - Thread-139 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-12 13:45:49,004 - app.API - Thread-139 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-12 13:45:49,004 - urllib3.connectionpool - Thread-139 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-12 13:46:03,675 - app - MainThread - INFO - Object pool size :- 2 
+2023-10-12 13:46:03,675 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-12 13:46:03,675 - app - MainThread - INFO - Killing Failed Thread
+2023-10-12 13:46:03,675 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-12 13:46:03,675 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-12 13:46:03,675 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-12 13:46:03,675 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera11
+2023-10-12 13:46:03,675 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.214:554/Streaming/Channels/101/
+2023-10-12 13:46:06,305 - app.FFMPEGC - MainThread - INFO - fps: 25/1
+2023-10-12 13:46:06,305 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-12 13:46:06,305 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-12 13:46:06,305 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-12 13:46:06,305 - app - MainThread - INFO - Killing Failed Thread
+2023-10-12 13:46:06,305 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-12 13:46:06,305 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-12 13:46:06,305 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-12 13:46:06,305 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera11
+2023-10-12 13:46:06,305 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.214:554/Streaming/Channels/101/
+2023-10-12 13:46:09,157 - app.FFMPEGC - MainThread - INFO - fps: 25/1
+2023-10-12 13:46:09,157 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-12 13:46:09,157 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-12 13:46:10,044 - app.API - Thread-139 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-12 13:46:10,044 - app.FFMPEGC - Thread-139 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-12 13:46:10,044 - app.FFMPEGC - Thread-139 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001C64CC18090>, 'Connection to 10.12.1.151 timed out. (connect timeout=None)'))
+2023-10-12 13:46:10,046 - urllib3.connectionpool - Thread-150 (func) - DEBUG - Starting new HTTPS connection (1): www.google-analytics.com:443
+2023-10-12 13:46:10,408 - urllib3.connectionpool - Thread-150 (func) - DEBUG - https://www.google-analytics.com:443 "POST /mp/collect?measurement_id=G-X8NCJYTQXM&api_secret=QLQrATrNSwGRFRLE-cbHJw HTTP/1.1" 204 0
+2023-10-12 13:46:12,074 - app.FFMPEGC - Thread-139 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:46:42,939 - app.FFMPEGC - Thread-146 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:47:09,165 - app - MainThread - INFO - Object pool size :- 2 
+2023-10-12 13:47:09,166 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-12 13:47:09,166 - app - MainThread - INFO - Killing Failed Thread
+2023-10-12 13:47:09,166 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-12 13:47:09,166 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-12 13:47:09,166 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-12 13:47:09,166 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera10
+2023-10-12 13:47:09,166 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.215:554/Streaming/Channels/101/
+2023-10-12 13:47:10,107 - urllib3.connectionpool - Thread-153 (func) - DEBUG - Starting new HTTPS connection (1): www.google-analytics.com:443
+2023-10-12 13:47:10,418 - urllib3.connectionpool - Thread-153 (func) - DEBUG - https://www.google-analytics.com:443 "POST /mp/collect?measurement_id=G-X8NCJYTQXM&api_secret=QLQrATrNSwGRFRLE-cbHJw HTTP/1.1" 204 0
+2023-10-12 13:47:12,152 - app.FFMPEGC - MainThread - INFO - fps: 25/1
+2023-10-12 13:47:12,152 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-12 13:47:12,152 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-12 13:47:12,152 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-12 13:47:12,152 - app - MainThread - INFO - Killing Failed Thread
+2023-10-12 13:47:12,152 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-12 13:47:12,152 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-12 13:47:12,152 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-12 13:47:12,152 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera10
+2023-10-12 13:47:12,157 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.215:554/Streaming/Channels/101/
+2023-10-12 13:47:15,067 - app.FFMPEGC - MainThread - INFO - fps: 25/1
+2023-10-12 13:47:15,067 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-12 13:47:15,070 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-12 13:47:16,713 - app.FFMPEGC - Thread-154 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-12 13:47:16,738 - app.API - Thread-154 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-12 13:47:16,739 - urllib3.connectionpool - Thread-154 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-12 13:47:20,312 - app.FFMPEGC - Thread-157 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-12 13:47:20,338 - app.API - Thread-157 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-12 13:47:20,339 - urllib3.connectionpool - Thread-157 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-12 13:47:34,470 - app.FFMPEGC - Thread-149 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:47:37,784 - app.API - Thread-154 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-12 13:47:37,784 - app.FFMPEGC - Thread-154 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-12 13:47:37,784 - app.FFMPEGC - Thread-154 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001C64CC318D0>, 'Connection to 10.12.1.151 timed out. (connect timeout=None)'))
+2023-10-12 13:47:41,415 - app.API - Thread-157 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-12 13:47:41,415 - app.FFMPEGC - Thread-157 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-12 13:47:41,415 - app.FFMPEGC - Thread-157 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001C64CBD1510>, 'Connection to 10.12.1.151 timed out. (connect timeout=None)'))
+2023-10-12 13:47:54,093 - app.FFMPEGC - Thread-157 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:48:10,232 - urllib3.connectionpool - Thread-158 (func) - DEBUG - Starting new HTTPS connection (1): www.google-analytics.com:443
+2023-10-12 13:48:10,558 - urllib3.connectionpool - Thread-158 (func) - DEBUG - https://www.google-analytics.com:443 "POST /mp/collect?measurement_id=G-X8NCJYTQXM&api_secret=QLQrATrNSwGRFRLE-cbHJw HTTP/1.1" 204 0
+2023-10-12 13:48:15,071 - app - MainThread - INFO - Object pool size :- 2 
+2023-10-12 13:48:15,071 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-12 13:48:15,071 - app - MainThread - INFO - Killing Failed Thread
+2023-10-12 13:48:15,072 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-12 13:48:15,072 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-12 13:48:15,072 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-12 13:48:15,072 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera11
+2023-10-12 13:48:15,072 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.214:554/Streaming/Channels/101/
+2023-10-12 13:48:17,771 - app.FFMPEGC - MainThread - INFO - fps: 299/12
+2023-10-12 13:48:17,771 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-12 13:48:17,771 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-12 13:48:17,771 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-12 13:48:17,771 - app - MainThread - INFO - Killing Failed Thread
+2023-10-12 13:48:17,771 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-12 13:48:17,771 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-12 13:48:17,771 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-12 13:48:17,771 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera11
+2023-10-12 13:48:17,771 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.214:554/Streaming/Channels/101/
+2023-10-12 13:48:20,500 - app.FFMPEGC - MainThread - INFO - fps: 299/12
+2023-10-12 13:48:20,500 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-12 13:48:20,500 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-12 13:48:44,702 - app.FFMPEGC - Thread-161 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:48:45,339 - app.FFMPEGC - Thread-154 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-12 13:48:45,368 - app.API - Thread-154 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-12 13:48:45,370 - urllib3.connectionpool - Thread-154 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-12 13:48:46,312 - app.FFMPEGC - Thread-164 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-12 13:48:46,342 - app.API - Thread-164 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-12 13:48:46,342 - urllib3.connectionpool - Thread-164 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-12 13:49:06,421 - app.API - Thread-154 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-12 13:49:06,421 - app.FFMPEGC - Thread-154 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-12 13:49:06,421 - app.FFMPEGC - Thread-154 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001C64FF80750>, 'Connection to 10.12.1.151 timed out. (connect timeout=None)'))
+2023-10-12 13:49:06,908 - app.FFMPEGC - Thread-154 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-12 13:49:06,935 - app.API - Thread-154 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-12 13:49:06,937 - urllib3.connectionpool - Thread-154 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-12 13:49:07,374 - app.API - Thread-164 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-12 13:49:07,374 - app.FFMPEGC - Thread-164 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-12 13:49:07,374 - app.FFMPEGC - Thread-164 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001C64CC05ED0>, 'Connection to 10.12.1.151 timed out. (connect timeout=None)'))
+2023-10-12 13:49:08,021 - app.FFMPEGC - Thread-164 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-12 13:49:08,040 - app.API - Thread-164 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-12 13:49:08,042 - urllib3.connectionpool - Thread-164 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-12 13:49:20,502 - app - MainThread - INFO - Object pool size :- 2 
+2023-10-12 13:49:20,502 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-12 13:49:20,502 - app - MainThread - INFO - Killing Failed Thread
+2023-10-12 13:49:20,502 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-12 13:49:20,502 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-12 13:49:20,502 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-12 13:49:20,502 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera10
+2023-10-12 13:49:20,502 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.215:554/Streaming/Channels/101/
+2023-10-12 13:49:23,006 - app.FFMPEGC - MainThread - INFO - fps: 25/1
+2023-10-12 13:49:23,006 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-12 13:49:23,006 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-12 13:49:23,006 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-12 13:49:23,006 - app - MainThread - INFO - Killing Failed Thread
+2023-10-12 13:49:23,006 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-12 13:49:23,006 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-12 13:49:23,006 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-12 13:49:23,006 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera10
+2023-10-12 13:49:23,006 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.215:554/Streaming/Channels/101/
+2023-10-12 13:49:25,834 - app.FFMPEGC - MainThread - INFO - fps: 25/1
+2023-10-12 13:49:25,838 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-12 13:49:25,838 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-12 13:49:26,913 - urllib3.connectionpool - Thread-171 (func) - DEBUG - Starting new HTTPS connection (1): www.google-analytics.com:443
+2023-10-12 13:49:27,217 - urllib3.connectionpool - Thread-171 (func) - DEBUG - https://www.google-analytics.com:443 "POST /mp/collect?measurement_id=G-X8NCJYTQXM&api_secret=QLQrATrNSwGRFRLE-cbHJw HTTP/1.1" 204 0
+2023-10-12 13:49:27,480 - app.FFMPEGC - Thread-167 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-12 13:49:27,500 - app.API - Thread-167 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-12 13:49:27,509 - urllib3.connectionpool - Thread-167 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-12 13:49:27,985 - app.API - Thread-154 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-12 13:49:27,985 - app.FFMPEGC - Thread-154 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-12 13:49:27,985 - app.FFMPEGC - Thread-154 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001C64CC18F50>, 'Connection to 10.12.1.151 timed out. (connect timeout=None)'))
+2023-10-12 13:49:29,108 - app.API - Thread-164 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-12 13:49:29,108 - app.FFMPEGC - Thread-164 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-12 13:49:29,108 - app.FFMPEGC - Thread-164 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001C64CC31010>, 'Connection to 10.12.1.151 timed out. (connect timeout=None)'))
+2023-10-12 13:49:31,590 - app.FFMPEGC - Thread-164 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:49:31,820 - app.FFMPEGC - Thread-154 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-12 13:49:31,848 - app.API - Thread-154 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-12 13:49:31,850 - urllib3.connectionpool - Thread-154 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-12 13:49:37,560 - app.FFMPEGC - Thread-170 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-12 13:49:37,581 - app.API - Thread-170 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-12 13:49:37,581 - urllib3.connectionpool - Thread-170 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-12 13:49:48,593 - app.API - Thread-167 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-12 13:49:48,593 - app.FFMPEGC - Thread-167 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-12 13:49:48,593 - app.FFMPEGC - Thread-167 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001C65616E450>, 'Connection to 10.12.1.151 timed out. (connect timeout=None)'))
+2023-10-12 13:49:52,907 - app.API - Thread-154 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-12 13:49:52,907 - app.FFMPEGC - Thread-154 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-12 13:49:52,907 - app.FFMPEGC - Thread-154 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001C64CC318D0>, 'Connection to 10.12.1.151 timed out. (connect timeout=None)'))
+2023-10-12 13:49:56,303 - app.FFMPEGC - Thread-167 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:49:58,622 - app.API - Thread-170 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-12 13:49:58,622 - app.FFMPEGC - Thread-170 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-12 13:49:58,622 - app.FFMPEGC - Thread-170 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001C6561417D0>, 'Connection to 10.12.1.151 timed out. (connect timeout=None)'))
+2023-10-12 13:50:00,063 - app.FFMPEGC - Thread-154 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:50:00,345 - app.FFMPEGC - Thread-170 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-12 13:50:00,370 - app.API - Thread-170 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-12 13:50:00,373 - urllib3.connectionpool - Thread-170 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-12 13:50:21,425 - app.API - Thread-170 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-12 13:50:21,425 - app.FFMPEGC - Thread-170 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-12 13:50:21,425 - app.FFMPEGC - Thread-170 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001C64CC5C910>, 'Connection to 10.12.1.151 timed out. (connect timeout=None)'))
+2023-10-12 13:50:23,405 - app.FFMPEGC - Thread-170 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:50:25,839 - app - MainThread - INFO - Object pool size :- 2 
+2023-10-12 13:50:25,839 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-12 13:50:25,839 - app - MainThread - INFO - Killing Failed Thread
+2023-10-12 13:50:25,839 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-12 13:50:25,839 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-12 13:50:25,839 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-12 13:50:25,839 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera11
+2023-10-12 13:50:25,839 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.214:554/Streaming/Channels/101/
+2023-10-12 13:50:28,309 - app.FFMPEGC - MainThread - INFO - fps: 299/12
+2023-10-12 13:50:28,309 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-12 13:50:28,309 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-12 13:50:28,309 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-12 13:50:28,309 - app - MainThread - INFO - Killing Failed Thread
+2023-10-12 13:50:28,309 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-12 13:50:28,309 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-12 13:50:28,309 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-12 13:50:28,309 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera11
+2023-10-12 13:50:28,309 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.214:554/Streaming/Channels/101/
+2023-10-12 13:50:31,105 - app.FFMPEGC - MainThread - INFO - fps: 299/12
+2023-10-12 13:50:31,105 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-12 13:50:31,105 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-12 13:50:32,157 - urllib3.connectionpool - Thread-178 (func) - DEBUG - Starting new HTTPS connection (1): www.google-analytics.com:443
+2023-10-12 13:50:32,452 - urllib3.connectionpool - Thread-178 (func) - DEBUG - https://www.google-analytics.com:443 "POST /mp/collect?measurement_id=G-X8NCJYTQXM&api_secret=QLQrATrNSwGRFRLE-cbHJw HTTP/1.1" 204 0
+2023-10-12 13:50:32,705 - app.FFMPEGC - Thread-174 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-12 13:50:32,730 - app.API - Thread-174 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-12 13:50:32,731 - urllib3.connectionpool - Thread-174 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-12 13:50:35,318 - app.FFMPEGC - Thread-177 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-12 13:50:35,351 - app.API - Thread-177 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-12 13:50:35,351 - urllib3.connectionpool - Thread-177 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-12 13:50:53,771 - app.API - Thread-174 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-12 13:50:53,771 - app.FFMPEGC - Thread-174 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-12 13:50:53,771 - app.FFMPEGC - Thread-174 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001C656141410>, 'Connection to 10.12.1.151 timed out. (connect timeout=None)'))
+2023-10-12 13:50:56,407 - app.API - Thread-177 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-12 13:50:56,407 - app.FFMPEGC - Thread-177 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-12 13:50:56,407 - app.FFMPEGC - Thread-177 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001C64CC31790>, 'Connection to 10.12.1.151 timed out. (connect timeout=None)'))
+2023-10-12 13:51:03,709 - app.FFMPEGC - Thread-174 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:51:31,120 - app - MainThread - INFO - Object pool size :- 2 
+2023-10-12 13:51:31,120 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-12 13:51:31,120 - app - MainThread - INFO - Killing Failed Thread
+2023-10-12 13:51:31,120 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-12 13:51:31,120 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-12 13:51:31,120 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-12 13:51:31,120 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera10
+2023-10-12 13:51:31,120 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.215:554/Streaming/Channels/101/
+2023-10-12 13:51:32,240 - urllib3.connectionpool - Thread-181 (func) - DEBUG - Starting new HTTPS connection (1): www.google-analytics.com:443
+2023-10-12 13:51:32,725 - urllib3.connectionpool - Thread-181 (func) - DEBUG - https://www.google-analytics.com:443 "POST /mp/collect?measurement_id=G-X8NCJYTQXM&api_secret=QLQrATrNSwGRFRLE-cbHJw HTTP/1.1" 204 0
+2023-10-12 13:51:33,808 - app.FFMPEGC - MainThread - INFO - fps: 299/12
+2023-10-12 13:51:33,808 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-12 13:51:33,809 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-12 13:51:33,809 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-12 13:51:33,809 - app - MainThread - INFO - Killing Failed Thread
+2023-10-12 13:51:33,809 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-12 13:51:33,809 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-12 13:51:33,809 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-12 13:51:33,809 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera10
+2023-10-12 13:51:33,809 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.215:554/Streaming/Channels/101/
+2023-10-12 13:51:34,776 - app.FFMPEGC - Thread-177 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:51:36,495 - app.FFMPEGC - MainThread - INFO - fps: 299/12
+2023-10-12 13:51:36,495 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-12 13:51:36,495 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-12 13:51:38,048 - app.FFMPEGC - Thread-182 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-12 13:51:38,068 - app.API - Thread-182 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-12 13:51:38,076 - urllib3.connectionpool - Thread-182 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-12 13:51:59,141 - app.API - Thread-182 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-12 13:51:59,141 - app.FFMPEGC - Thread-182 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-12 13:51:59,141 - app.FFMPEGC - Thread-182 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001C64CBDD010>, 'Connection to 10.12.1.151 timed out. (connect timeout=None)'))
+2023-10-12 13:52:05,603 - app.FFMPEGC - Thread-185 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:52:10,429 - app.FFMPEGC - Thread-182 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:52:36,504 - app - MainThread - INFO - Object pool size :- 2 
+2023-10-12 13:52:36,504 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-12 13:52:36,504 - app - MainThread - INFO - Killing Failed Thread
+2023-10-12 13:52:36,504 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-12 13:52:36,504 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-12 13:52:36,504 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-12 13:52:36,504 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera11
+2023-10-12 13:52:36,504 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.214:554/Streaming/Channels/101/
+2023-10-12 13:52:39,048 - app.FFMPEGC - MainThread - INFO - fps: 299/12
+2023-10-12 13:52:39,048 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-12 13:52:39,048 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-12 13:52:39,048 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-12 13:52:39,048 - app - MainThread - INFO - Killing Failed Thread
+2023-10-12 13:52:39,048 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-12 13:52:39,048 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-12 13:52:39,048 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-12 13:52:39,048 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera11
+2023-10-12 13:52:39,048 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.214:554/Streaming/Channels/101/
+2023-10-12 13:52:41,807 - app.FFMPEGC - MainThread - INFO - fps: 25/1
+2023-10-12 13:52:41,807 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-12 13:52:41,807 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-12 13:52:42,822 - urllib3.connectionpool - Thread-192 (func) - DEBUG - Starting new HTTPS connection (1): www.google-analytics.com:443
+2023-10-12 13:52:43,096 - urllib3.connectionpool - Thread-192 (func) - DEBUG - https://www.google-analytics.com:443 "POST /mp/collect?measurement_id=G-X8NCJYTQXM&api_secret=QLQrATrNSwGRFRLE-cbHJw HTTP/1.1" 204 0
+2023-10-12 13:53:11,704 - app.FFMPEGC - Thread-188 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:53:13,414 - app.FFMPEGC - Thread-191 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:53:41,819 - app - MainThread - INFO - Object pool size :- 2 
+2023-10-12 13:53:41,819 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-12 13:53:41,819 - app - MainThread - INFO - Killing Failed Thread
+2023-10-12 13:53:41,819 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-12 13:53:41,819 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-12 13:53:41,819 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-12 13:53:41,819 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera10
+2023-10-12 13:53:41,819 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.215:554/Streaming/Channels/101/
+2023-10-12 13:53:44,317 - app.FFMPEGC - MainThread - INFO - fps: 299/12
+2023-10-12 13:53:44,317 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-12 13:53:44,317 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-12 13:53:44,317 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-12 13:53:44,317 - app - MainThread - INFO - Killing Failed Thread
+2023-10-12 13:53:44,317 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-12 13:53:44,317 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-12 13:53:44,317 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-12 13:53:44,317 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera10
+2023-10-12 13:53:44,317 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.215:554/Streaming/Channels/101/
+2023-10-12 13:53:47,063 - app.FFMPEGC - MainThread - INFO - fps: 299/12
+2023-10-12 13:53:47,063 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-12 13:53:47,063 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-12 13:53:48,216 - urllib3.connectionpool - Thread-199 (func) - DEBUG - Starting new HTTPS connection (1): www.google-analytics.com:443
+2023-10-12 13:53:48,482 - urllib3.connectionpool - Thread-199 (func) - DEBUG - https://www.google-analytics.com:443 "POST /mp/collect?measurement_id=G-X8NCJYTQXM&api_secret=QLQrATrNSwGRFRLE-cbHJw HTTP/1.1" 204 0
+2023-10-12 13:53:48,765 - app.FFMPEGC - Thread-195 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-12 13:53:48,826 - app.API - Thread-195 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-12 13:53:48,826 - urllib3.connectionpool - Thread-195 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-12 13:54:02,079 - app.FFMPEGC - Thread-198 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-12 13:54:02,106 - app.API - Thread-198 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-12 13:54:02,107 - urllib3.connectionpool - Thread-198 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-12 13:54:09,883 - app.API - Thread-195 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-12 13:54:09,884 - app.FFMPEGC - Thread-195 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-12 13:54:09,884 - app.FFMPEGC - Thread-195 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001C64CBDD2D0>, 'Connection to 10.12.1.151 timed out. (connect timeout=None)'))

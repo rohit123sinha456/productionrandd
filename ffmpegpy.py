@@ -7,7 +7,6 @@ import threading
 import uuid
 import ffmpeg
 
-
 class FFMPEGC():
     def __init__(self,Inference,API,camera_config,MaxRetries=3):
         self.logger = logging.getLogger('app.FFMPEGC')

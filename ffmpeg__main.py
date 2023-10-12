@@ -6,7 +6,7 @@ import time
 from threading import Event
 import os
 import logging
-
+import sys
 
 logging.basicConfig(filename='app.log', level=logging.DEBUG, format='%(asctime)s - %(name)s - %(threadName)s - %(levelname)s - %(message)s')
 logger = logging.getLogger('app')
@@ -32,6 +32,8 @@ def create_FFMPEG_pool(inferob,api,data):
         if (retry == 12):
             logger.error("Failed to probe RTSP Stream for camera :- ",camera_config['camera'])
             logger.error("Failed to probe RTSP Stream for URL :- ",camera_config['rtsp_url'])
+            logger.error("Exiting Process")
+            sys.exit(0)
     logger.info("FFMPEG RTSP Stream Capture Object Group of size {} is created".format(len(rtsp_object_list)))
     return rtsp_object_list
 
