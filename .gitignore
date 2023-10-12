@@ -1,3 +1,6 @@
 env
 *.mp4
 *.jpg
+dist
+build
+*.spec
