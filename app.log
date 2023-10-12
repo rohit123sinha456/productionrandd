@@ -177,3 +177,5 @@
 2023-10-12 13:30:49,188 - app - MainThread - INFO - Running FFMPEG Capture Threads
 2023-10-12 13:30:49,190 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
 2023-10-12 13:31:02,683 - app.FFMPEGC - Thread-39 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:31:10,640 - app.FFMPEGC - Thread-50 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-12 13:31:11,827 - app.FFMPEGC - Thread-47 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
