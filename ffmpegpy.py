@@ -52,7 +52,7 @@ class FFMPEGC():
             try:
                 in_bytes = self.process1.stdout.read(self.width * self.height * 3)   
                 if not in_bytes:
-                    break
+                    continue
                 
                 Frame = (
                     np

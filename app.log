@@ -920,3 +920,224 @@
 2023-10-12 13:54:09,883 - app.API - Thread-195 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
 2023-10-12 13:54:09,884 - app.FFMPEGC - Thread-195 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
 2023-10-12 13:54:09,884 - app.FFMPEGC - Thread-195 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001C64CBDD2D0>, 'Connection to 10.12.1.151 timed out. (connect timeout=None)'))
+2023-10-12 18:34:21,626 - app - MainThread - INFO - Begin Creating FFMPEG RTSP Stream Capture Object Group
+2023-10-12 18:34:21,626 - app - MainThread - INFO - Creating FFMPEG RTSP Stream Capture Object Group
+2023-10-12 18:34:21,626 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera10
+2023-10-12 18:34:21,626 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.215:554/Streaming/Channels/101/
+2023-10-12 18:35:58,605 - app - MainThread - WARNING - exception in creating FFMPEG object pool : retryin in 60 seconds again, retry:- 0/12 
+2023-10-13 10:39:23,660 - app - MainThread - INFO - Begin Creating FFMPEG RTSP Stream Capture Object Group
+2023-10-13 10:39:23,660 - app - MainThread - INFO - Creating FFMPEG RTSP Stream Capture Object Group
+2023-10-13 10:39:23,660 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera10
+2023-10-13 10:39:23,660 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.215:554/Streaming/Channels/101/
+2023-10-13 10:39:25,883 - app.FFMPEGC - MainThread - INFO - fps: 299/12
+2023-10-13 10:39:25,884 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera11
+2023-10-13 10:39:25,884 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.214:554/Streaming/Channels/101/
+2023-10-13 10:39:27,217 - app.FFMPEGC - MainThread - INFO - fps: 25/1
+2023-10-13 10:39:27,218 - app - MainThread - INFO - FFMPEG RTSP Stream Capture Object Group of size 2 is created
+2023-10-13 10:39:27,220 - app - MainThread - INFO - Object pool size :- 2 
+2023-10-13 10:39:27,221 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-13 10:39:27,221 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-13 10:39:31,843 - tensorflow - Thread-6 (enqueue_frame_buffer) - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2023-10-13 10:39:32,238 - h5py._conv - Thread-6 (enqueue_frame_buffer) - DEBUG - Creating converter from 7 to 5
+2023-10-13 10:39:32,238 - h5py._conv - Thread-6 (enqueue_frame_buffer) - DEBUG - Creating converter from 5 to 7
+2023-10-13 10:39:32,238 - h5py._conv - Thread-6 (enqueue_frame_buffer) - DEBUG - Creating converter from 7 to 5
+2023-10-13 10:39:32,238 - h5py._conv - Thread-6 (enqueue_frame_buffer) - DEBUG - Creating converter from 5 to 7
+2023-10-13 10:39:35,582 - app.FFMPEGC - Thread-6 (enqueue_frame_buffer) - ERROR - Problem with Processing
+2023-10-13 10:39:35,582 - app.FFMPEGC - Thread-6 (enqueue_frame_buffer) - ERROR - 'Conv' object has no attribute 'bn'
+2023-10-13 10:39:47,818 - app.FFMPEGC - Thread-5 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-13 10:39:47,856 - app.API - Thread-5 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-13 10:39:47,870 - urllib3.connectionpool - Thread-5 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-13 10:39:47,875 - app.API - Thread-5 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-13 10:39:47,875 - app.FFMPEGC - Thread-5 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-13 10:39:47,875 - app.FFMPEGC - Thread-5 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F2C944C1D0>: Failed to establish a new connection: [WinError 10051] A socket operation was attempted to an unreachable network'))
+2023-10-13 10:39:57,721 - app.FFMPEGC - Thread-5 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-13 10:40:27,222 - app - MainThread - INFO - Object pool size :- 2 
+2023-10-13 10:40:27,222 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-13 10:40:27,222 - app - MainThread - INFO - Killing Failed Thread
+2023-10-13 10:40:27,222 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-13 10:40:27,222 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-13 10:40:27,222 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-13 10:40:27,222 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera10
+2023-10-13 10:40:27,222 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.215:554/Streaming/Channels/101/
+2023-10-13 10:40:28,935 - app.FFMPEGC - MainThread - INFO - fps: 25/1
+2023-10-13 10:40:28,937 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-13 10:40:28,938 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-13 10:40:28,938 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-13 10:40:28,938 - app - MainThread - INFO - Killing Failed Thread
+2023-10-13 10:40:28,938 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-13 10:40:28,938 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-13 10:40:28,938 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-13 10:40:28,938 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera10
+2023-10-13 10:40:28,939 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.215:554/Streaming/Channels/101/
+2023-10-13 10:40:30,295 - app.FFMPEGC - MainThread - INFO - fps: 25/1
+2023-10-13 10:40:30,295 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-13 10:40:30,295 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-13 10:40:31,288 - app.FFMPEGC - Thread-15 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-13 10:40:31,325 - app.API - Thread-15 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-13 10:40:31,328 - urllib3.connectionpool - Thread-15 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-13 10:40:31,328 - app.API - Thread-15 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-13 10:40:31,330 - app.FFMPEGC - Thread-15 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-13 10:40:31,330 - app.FFMPEGC - Thread-15 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F2C466E590>: Failed to establish a new connection: [WinError 10051] A socket operation was attempted to an unreachable network'))
+2023-10-13 10:40:35,668 - app.FFMPEGC - Thread-18 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-13 10:40:35,703 - app.API - Thread-18 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-13 10:40:35,706 - urllib3.connectionpool - Thread-18 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-13 10:40:35,706 - app.API - Thread-18 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-13 10:40:35,706 - app.FFMPEGC - Thread-18 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-13 10:40:35,706 - app.FFMPEGC - Thread-18 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F2CBDF3A90>: Failed to establish a new connection: [WinError 10051] A socket operation was attempted to an unreachable network'))
+2023-10-13 10:40:44,865 - app.FFMPEGC - Thread-15 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-13 10:40:44,896 - app.API - Thread-15 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-13 10:40:44,900 - urllib3.connectionpool - Thread-15 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-13 10:40:44,901 - app.API - Thread-15 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-13 10:40:44,901 - app.FFMPEGC - Thread-15 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-13 10:40:44,901 - app.FFMPEGC - Thread-15 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F2C28A6FD0>: Failed to establish a new connection: [WinError 10051] A socket operation was attempted to an unreachable network'))
+2023-10-13 10:40:51,924 - app.FFMPEGC - Thread-15 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-13 10:40:52,407 - app.FFMPEGC - Thread-18 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-13 10:40:52,445 - app.API - Thread-18 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-13 10:40:52,447 - urllib3.connectionpool - Thread-18 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-13 10:40:52,460 - app.API - Thread-18 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-13 10:40:52,461 - app.FFMPEGC - Thread-18 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-13 10:40:52,461 - app.FFMPEGC - Thread-18 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F2C2895E50>: Failed to establish a new connection: [WinError 10051] A socket operation was attempted to an unreachable network'))
+2023-10-13 10:40:52,659 - app.FFMPEGC - Thread-18 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-13 10:40:52,693 - app.API - Thread-18 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-13 10:40:52,694 - urllib3.connectionpool - Thread-18 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-13 10:40:52,697 - app.API - Thread-18 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-13 10:40:52,697 - app.FFMPEGC - Thread-18 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-13 10:40:52,697 - app.FFMPEGC - Thread-18 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F2CBDF1D50>: Failed to establish a new connection: [WinError 10051] A socket operation was attempted to an unreachable network'))
+2023-10-13 10:40:56,804 - app.FFMPEGC - Thread-18 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-13 10:40:56,840 - app.API - Thread-18 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-13 10:40:56,842 - urllib3.connectionpool - Thread-18 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-13 10:40:56,842 - app.API - Thread-18 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-13 10:40:56,844 - app.FFMPEGC - Thread-18 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-13 10:40:56,844 - app.FFMPEGC - Thread-18 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F2C26E0410>: Failed to establish a new connection: [WinError 10051] A socket operation was attempted to an unreachable network'))
+2023-10-13 10:40:57,155 - app.FFMPEGC - Thread-18 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-13 10:40:57,185 - app.API - Thread-18 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-13 10:40:57,186 - urllib3.connectionpool - Thread-18 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-13 10:40:57,186 - app.API - Thread-18 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-13 10:40:57,186 - app.FFMPEGC - Thread-18 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-13 10:40:57,186 - app.FFMPEGC - Thread-18 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F2CB457910>: Failed to establish a new connection: [WinError 10051] A socket operation was attempted to an unreachable network'))
+2023-10-13 10:40:57,377 - app.FFMPEGC - Thread-18 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-13 10:40:57,426 - app.API - Thread-18 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-13 10:40:57,428 - urllib3.connectionpool - Thread-18 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-13 10:40:57,428 - app.API - Thread-18 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-13 10:40:57,428 - app.FFMPEGC - Thread-18 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-13 10:40:57,428 - app.FFMPEGC - Thread-18 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F2CBDF2010>: Failed to establish a new connection: [WinError 10051] A socket operation was attempted to an unreachable network'))
+2023-10-13 10:41:03,507 - app.FFMPEGC - Thread-6 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-13 10:41:17,499 - app.FFMPEGC - Thread-18 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-13 10:41:17,523 - app.API - Thread-18 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-13 10:41:17,526 - urllib3.connectionpool - Thread-18 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-13 10:41:17,526 - app.API - Thread-18 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-13 10:41:17,526 - app.FFMPEGC - Thread-18 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-13 10:41:17,526 - app.FFMPEGC - Thread-18 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F2C2896D90>: Failed to establish a new connection: [WinError 10051] A socket operation was attempted to an unreachable network'))
+2023-10-13 10:41:22,806 - app.FFMPEGC - Thread-18 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-13 10:41:22,827 - app.API - Thread-18 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-13 10:41:22,827 - urllib3.connectionpool - Thread-18 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-13 10:41:22,835 - app.API - Thread-18 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-13 10:41:22,835 - app.FFMPEGC - Thread-18 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-13 10:41:22,835 - app.FFMPEGC - Thread-18 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F2CBDF4ED0>: Failed to establish a new connection: [WinError 10051] A socket operation was attempted to an unreachable network'))
+2023-10-13 10:41:24,218 - app.FFMPEGC - Thread-18 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-13 10:41:30,298 - app - MainThread - INFO - Object pool size :- 2 
+2023-10-13 10:41:30,298 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-13 10:41:30,298 - app - MainThread - INFO - Killing Failed Thread
+2023-10-13 10:41:30,298 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-13 10:41:30,298 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-13 10:41:30,298 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-13 10:41:30,298 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera11
+2023-10-13 10:41:30,298 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.214:554/Streaming/Channels/101/
+2023-10-13 10:41:31,588 - app.FFMPEGC - MainThread - INFO - fps: 25/1
+2023-10-13 10:41:31,588 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-13 10:41:31,588 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-13 10:41:31,588 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-13 10:41:31,588 - app - MainThread - INFO - Killing Failed Thread
+2023-10-13 10:41:31,588 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-13 10:41:31,588 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-13 10:41:31,588 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-13 10:41:31,588 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera11
+2023-10-13 10:41:31,588 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.214:554/Streaming/Channels/101/
+2023-10-13 10:41:32,937 - app.FFMPEGC - MainThread - INFO - fps: 25/1
+2023-10-13 10:41:32,937 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-13 10:41:32,937 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-13 10:42:32,943 - app - MainThread - INFO - Object pool size :- 2 
+2023-10-13 10:42:32,943 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-13 10:42:32,944 - app - MainThread - INFO - Killing Failed Thread
+2023-10-13 10:42:32,944 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-13 10:42:32,944 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-13 10:42:32,944 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-13 10:42:32,944 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera10
+2023-10-13 10:42:32,944 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.215:554/Streaming/Channels/101/
+2023-10-13 10:42:34,280 - app.FFMPEGC - MainThread - INFO - fps: 25/1
+2023-10-13 10:42:34,280 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-13 10:42:34,281 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-13 10:42:34,281 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-13 10:42:34,281 - app - MainThread - INFO - Killing Failed Thread
+2023-10-13 10:42:34,281 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-13 10:42:34,282 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-13 10:42:34,282 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-13 10:42:34,282 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera10
+2023-10-13 10:42:34,282 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.215:554/Streaming/Channels/101/
+2023-10-13 10:42:35,677 - app.FFMPEGC - MainThread - INFO - fps: 25/1
+2023-10-13 10:42:35,677 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-13 10:42:35,679 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-13 10:42:39,658 - app.FFMPEGC - Thread-30 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-13 10:42:39,698 - app.API - Thread-30 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-13 10:42:39,703 - urllib3.connectionpool - Thread-30 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-13 10:42:39,705 - app.API - Thread-30 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-13 10:42:39,705 - app.FFMPEGC - Thread-30 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-13 10:42:39,705 - app.FFMPEGC - Thread-30 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F2CBDCC450>: Failed to establish a new connection: [WinError 10051] A socket operation was attempted to an unreachable network'))
+2023-10-13 10:42:46,725 - app.FFMPEGC - Thread-27 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-13 10:42:46,757 - app.API - Thread-27 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-13 10:42:46,761 - urllib3.connectionpool - Thread-27 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-13 10:42:46,762 - app.API - Thread-27 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-13 10:42:46,762 - app.FFMPEGC - Thread-27 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-13 10:42:46,762 - app.FFMPEGC - Thread-27 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F2CB4577D0>: Failed to establish a new connection: [WinError 10051] A socket operation was attempted to an unreachable network'))
+2023-10-13 10:42:48,286 - app.FFMPEGC - Thread-27 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-13 10:42:48,329 - app.API - Thread-27 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-13 10:42:48,329 - urllib3.connectionpool - Thread-27 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-13 10:42:48,329 - app.API - Thread-27 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-13 10:42:48,329 - app.FFMPEGC - Thread-27 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-13 10:42:48,329 - app.FFMPEGC - Thread-27 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F2C28A5ED0>: Failed to establish a new connection: [WinError 10051] A socket operation was attempted to an unreachable network'))
+2023-10-13 10:42:49,538 - app.FFMPEGC - Thread-27 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-13 10:42:49,570 - app.API - Thread-27 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-13 10:42:49,571 - urllib3.connectionpool - Thread-27 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-13 10:42:49,571 - app.API - Thread-27 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-13 10:42:49,571 - app.FFMPEGC - Thread-27 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-13 10:42:49,571 - app.FFMPEGC - Thread-27 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F2C9B3E990>: Failed to establish a new connection: [WinError 10051] A socket operation was attempted to an unreachable network'))
+2023-10-13 10:42:54,924 - app.FFMPEGC - Thread-27 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-13 10:42:54,960 - app.API - Thread-27 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-13 10:42:54,966 - urllib3.connectionpool - Thread-27 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-13 10:42:54,967 - app.API - Thread-27 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-13 10:42:54,968 - app.FFMPEGC - Thread-27 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-13 10:42:54,968 - app.FFMPEGC - Thread-27 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F2C28A7D10>: Failed to establish a new connection: [WinError 10051] A socket operation was attempted to an unreachable network'))
+2023-10-13 10:43:11,418 - app.FFMPEGC - Thread-30 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-13 10:43:16,063 - app.FFMPEGC - Thread-27 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-13 10:43:16,128 - app.API - Thread-27 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-13 10:43:16,131 - urllib3.connectionpool - Thread-27 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-13 10:43:16,136 - app.API - Thread-27 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-13 10:43:16,136 - app.FFMPEGC - Thread-27 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-13 10:43:16,136 - app.FFMPEGC - Thread-27 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F2C26CCD10>: Failed to establish a new connection: [WinError 10051] A socket operation was attempted to an unreachable network'))
+2023-10-13 10:43:20,011 - app.FFMPEGC - Thread-27 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-13 10:43:20,052 - app.API - Thread-27 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-13 10:43:20,055 - urllib3.connectionpool - Thread-27 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-10-13 10:43:20,055 - app.API - Thread-27 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-10-13 10:43:20,055 - app.FFMPEGC - Thread-27 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-10-13 10:43:20,055 - app.FFMPEGC - Thread-27 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F2CBDFBA50>: Failed to establish a new connection: [WinError 10051] A socket operation was attempted to an unreachable network'))
+2023-10-13 10:43:23,269 - app.FFMPEGC - Thread-21 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-13 10:43:29,876 - app.FFMPEGC - Thread-24 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-13 10:43:31,279 - app.FFMPEGC - Thread-27 (enqueue_frame_buffer) - INFO - Killing FFMPEG Process
+2023-10-13 10:43:35,679 - app - MainThread - INFO - Object pool size :- 2 
+2023-10-13 10:43:35,679 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-13 10:43:35,679 - app - MainThread - INFO - Killing Failed Thread
+2023-10-13 10:43:35,679 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-13 10:43:35,679 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-13 10:43:35,679 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-13 10:43:35,679 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera11
+2023-10-13 10:43:35,679 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.214:554/Streaming/Channels/101/
+2023-10-13 10:43:39,002 - app.FFMPEGC - MainThread - INFO - fps: 25/1
+2023-10-13 10:43:39,002 - app - MainThread - INFO - Running FFMPEG Capture Threads
+2023-10-13 10:43:39,002 - app - MainThread - INFO - Successfully Respwaned FFMPEG Capture Object
+2023-10-13 10:43:39,002 - app - MainThread - INFO - Queue Thread Status :- False
+2023-10-13 10:43:39,002 - app - MainThread - INFO - Killing Failed Thread
+2023-10-13 10:43:39,002 - app - MainThread - INFO - Removing Failed Object from Object Group
+2023-10-13 10:43:39,002 - app - MainThread - INFO - Begin Respwaning FFMPEG Capture Object
+2023-10-13 10:43:39,002 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
+2023-10-13 10:43:39,002 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera11
+2023-10-13 10:43:39,002 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.214:554/Streaming/Channels/101/
