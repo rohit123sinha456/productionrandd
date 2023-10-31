@@ -1,4 +1,4 @@
-from infer import Infer
+from test_infer import Infer
 from api_post import API
 from ffmpegpy import FFMPEGC
 import json
