@@ -1,6 +1,6 @@
 models:
   tracker: "osnet_x0_25_msmt17.pt"
-  detection: "model4_22.9"
+  detection: "model311023"
 
 url:
   upload: 'http://10.12.1.151:4002/api/v1/upload'
