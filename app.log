@@ -1141,3 +1141,101 @@
 2023-10-13 10:43:39,002 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
 2023-10-13 10:43:39,002 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera11
 2023-10-13 10:43:39,002 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.214:554/Streaming/Channels/101/
+2023-11-01 09:54:39,109 - app - MainThread - INFO - Begin Creating FFMPEG RTSP Stream Capture Object Group
+2023-11-01 09:54:39,109 - app - MainThread - INFO - Creating FFMPEG RTSP Stream Capture Object Group
+2023-11-01 09:54:39,109 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera10
+2023-11-01 09:54:39,109 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.215:554/Streaming/Channels/101/
+2023-11-01 09:58:29,810 - app - MainThread - WARNING - exception in creating FFMPEG object pool : retryin in 60 seconds again, retry:- 0/12 
+2023-11-01 09:58:47,899 - app - MainThread - INFO - Begin Creating FFMPEG RTSP Stream Capture Object Group
+2023-11-01 09:58:47,899 - app - MainThread - INFO - Creating FFMPEG RTSP Stream Capture Object Group
+2023-11-01 09:58:47,899 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera10
+2023-11-01 09:58:47,899 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.215:554/Streaming/Channels/101/
+2023-11-01 10:47:00,489 - app - MainThread - WARNING - exception in creating FFMPEG object pool : retryin in 60 seconds again, retry:- 0/12 
+2023-11-01 10:47:16,129 - app - MainThread - INFO - Begin Creating FFMPEG RTSP Stream Capture Object Group
+2023-11-01 10:47:16,129 - app - MainThread - INFO - Creating FFMPEG RTSP Stream Capture Object Group
+2023-11-01 10:47:16,129 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera10
+2023-11-01 10:47:16,129 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.215:554/Streaming/Channels/101/
+2023-11-01 10:49:15,978 - app - MainThread - WARNING - exception in creating FFMPEG object pool : retryin in 60 seconds again, retry:- 0/12 
+2023-11-01 10:53:04,184 - app - MainThread - INFO - Begin Creating FFMPEG RTSP Stream Capture Object Group
+2023-11-01 10:53:04,184 - app - MainThread - INFO - Creating FFMPEG RTSP Stream Capture Object Group
+2023-11-01 10:53:04,184 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera10
+2023-11-01 10:53:04,184 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.215:554/Streaming/Channels/101/
+2023-11-01 10:53:06,697 - app.FFMPEGC - MainThread - INFO - fps: 299/12
+2023-11-01 10:53:06,698 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera11
+2023-11-01 10:53:06,698 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.214:554/Streaming/Channels/101/
+2023-11-01 10:53:09,063 - app.FFMPEGC - MainThread - INFO - fps: 25/1
+2023-11-01 10:53:09,063 - app - MainThread - INFO - FFMPEG RTSP Stream Capture Object Group of size 2 is created
+2023-11-01 10:53:09,063 - app - MainThread - INFO - Object pool size :- 2 
+2023-11-01 10:53:09,067 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-01 10:53:09,067 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-01 10:53:19,636 - tensorflow - Thread-5 (enqueue_frame_buffer) - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2023-11-01 10:53:20,713 - h5py._conv - Thread-5 (enqueue_frame_buffer) - DEBUG - Creating converter from 7 to 5
+2023-11-01 10:53:20,713 - h5py._conv - Thread-5 (enqueue_frame_buffer) - DEBUG - Creating converter from 5 to 7
+2023-11-01 10:53:20,713 - h5py._conv - Thread-5 (enqueue_frame_buffer) - DEBUG - Creating converter from 7 to 5
+2023-11-01 10:53:20,713 - h5py._conv - Thread-5 (enqueue_frame_buffer) - DEBUG - Creating converter from 5 to 7
+2023-11-01 10:53:27,721 - app.FFMPEGC - Thread-6 (enqueue_frame_buffer) - ERROR - Problem with Processing
+2023-11-01 10:53:27,721 - app.FFMPEGC - Thread-6 (enqueue_frame_buffer) - ERROR - 'Conv' object has no attribute 'bn'
+2023-11-01 10:53:29,868 - urllib3.connectionpool - Thread-15 (func) - DEBUG - Starting new HTTPS connection (1): www.google-analytics.com:443
+2023-11-01 10:53:30,269 - urllib3.connectionpool - Thread-15 (func) - DEBUG - https://www.google-analytics.com:443 "POST /mp/collect?measurement_id=G-X8NCJYTQXM&api_secret=QLQrATrNSwGRFRLE-cbHJw HTTP/1.1" 204 0
+2023-11-01 10:53:30,869 - app.FFMPEGC - Thread-5 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-11-01 10:53:30,899 - app.API - Thread-5 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-11-01 10:53:30,901 - urllib3.connectionpool - Thread-5 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-11-01 10:53:51,984 - app.API - Thread-5 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-11-01 10:53:51,984 - app.FFMPEGC - Thread-5 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-11-01 10:53:51,984 - app.FFMPEGC - Thread-5 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002609A456ED0>, 'Connection to 10.12.1.151 timed out. (connect timeout=None)'))
+2023-11-01 10:53:52,547 - app.FFMPEGC - Thread-5 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-11-01 10:53:52,573 - app.API - Thread-5 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-11-01 10:53:52,574 - urllib3.connectionpool - Thread-5 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-11-01 10:56:00,616 - app - MainThread - INFO - Begin Creating FFMPEG RTSP Stream Capture Object Group
+2023-11-01 10:56:00,616 - app - MainThread - INFO - Creating FFMPEG RTSP Stream Capture Object Group
+2023-11-01 10:56:00,616 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera10
+2023-11-01 10:56:00,616 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.215:554/Streaming/Channels/101/
+2023-11-01 10:56:03,039 - app.FFMPEGC - MainThread - INFO - fps: 299/12
+2023-11-01 10:56:03,039 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera11
+2023-11-01 10:56:03,039 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.214:554/Streaming/Channels/101/
+2023-11-01 10:56:06,018 - app.FFMPEGC - MainThread - INFO - fps: 25/1
+2023-11-01 10:56:06,033 - app - MainThread - INFO - FFMPEG RTSP Stream Capture Object Group of size 2 is created
+2023-11-01 10:56:06,033 - app - MainThread - INFO - Object pool size :- 2 
+2023-11-01 10:56:06,033 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-01 10:56:06,033 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-01 10:56:14,502 - tensorflow - Thread-6 (enqueue_frame_buffer) - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2023-11-01 10:56:15,267 - h5py._conv - Thread-6 (enqueue_frame_buffer) - DEBUG - Creating converter from 7 to 5
+2023-11-01 10:56:15,267 - h5py._conv - Thread-6 (enqueue_frame_buffer) - DEBUG - Creating converter from 5 to 7
+2023-11-01 10:56:15,267 - h5py._conv - Thread-6 (enqueue_frame_buffer) - DEBUG - Creating converter from 7 to 5
+2023-11-01 10:56:15,267 - h5py._conv - Thread-6 (enqueue_frame_buffer) - DEBUG - Creating converter from 5 to 7
+2023-11-01 10:56:21,052 - app.FFMPEGC - Thread-5 (enqueue_frame_buffer) - ERROR - Problem with Processing
+2023-11-01 10:56:21,052 - app.FFMPEGC - Thread-5 (enqueue_frame_buffer) - ERROR - 'Conv' object has no attribute 'bn'
+2023-11-01 10:56:23,311 - urllib3.connectionpool - Thread-15 (func) - DEBUG - Starting new HTTPS connection (1): www.google-analytics.com:443
+2023-11-01 10:56:23,692 - urllib3.connectionpool - Thread-15 (func) - DEBUG - https://www.google-analytics.com:443 "POST /mp/collect?measurement_id=G-X8NCJYTQXM&api_secret=QLQrATrNSwGRFRLE-cbHJw HTTP/1.1" 204 0
+2023-11-01 10:56:23,895 - app.FFMPEGC - Thread-5 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-11-01 10:56:23,922 - app.API - Thread-5 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-11-01 10:56:23,924 - urllib3.connectionpool - Thread-5 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-11-01 10:56:45,000 - app.API - Thread-5 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-11-01 10:56:45,000 - app.FFMPEGC - Thread-5 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-11-01 10:56:45,000 - app.FFMPEGC - Thread-5 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001872038DA50>, 'Connection to 10.12.1.151 timed out. (connect timeout=None)'))
+2023-11-01 10:56:45,618 - app.FFMPEGC - Thread-5 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-11-01 10:56:45,653 - app.API - Thread-5 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-11-01 10:56:45,654 - urllib3.connectionpool - Thread-5 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-11-01 10:57:06,036 - app - MainThread - INFO - Object pool size :- 2 
+2023-11-01 10:57:06,038 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-01 10:57:06,038 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-01 10:57:06,711 - app.API - Thread-5 (enqueue_frame_buffer) - ERROR - Failed to Post Image to Server
+2023-11-01 10:57:06,711 - app.FFMPEGC - Thread-5 (enqueue_frame_buffer) - ERROR - Failed to Send Image to Server
+2023-11-01 10:57:06,711 - app.FFMPEGC - Thread-5 (enqueue_frame_buffer) - ERROR - HTTPConnectionPool(host='10.12.1.151', port=4002): Max retries exceeded with url: /api/v1/upload (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001872F610450>, 'Connection to 10.12.1.151 timed out. (connect timeout=None)'))
+2023-11-01 10:57:07,328 - app.FFMPEGC - Thread-5 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-11-01 10:57:07,367 - app.API - Thread-5 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-11-01 10:57:07,369 - urllib3.connectionpool - Thread-5 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002
+2023-11-01 10:57:15,250 - app.FFMPEGC - Thread-6 (enqueue_frame_buffer) - INFO - Some Issue with reading from STDOUT
+2023-11-01 10:57:15,250 - app.FFMPEGC - Thread-6 (enqueue_frame_buffer) - INFO - Some Issue with reading from STDOUT
+2023-11-01 10:57:15,250 - app.FFMPEGC - Thread-6 (enqueue_frame_buffer) - INFO - Some Issue with reading from STDOUT
+2023-11-01 10:57:15,250 - app.FFMPEGC - Thread-6 (enqueue_frame_buffer) - INFO - Some Issue with reading from STDOUT
+2023-11-01 10:57:15,250 - app.FFMPEGC - Thread-6 (enqueue_frame_buffer) - INFO - Some Issue with reading from STDOUT
+2023-11-01 10:57:15,258 - app.FFMPEGC - Thread-6 (enqueue_frame_buffer) - INFO - Some Issue with reading from STDOUT
+2023-11-01 10:57:15,258 - app.FFMPEGC - Thread-6 (enqueue_frame_buffer) - INFO - Some Issue with reading from STDOUT
+2023-11-01 10:57:15,258 - app.FFMPEGC - Thread-6 (enqueue_frame_buffer) - INFO - Some Issue with reading from STDOUT
+2023-11-01 10:57:15,260 - app.FFMPEGC - Thread-6 (enqueue_frame_buffer) - INFO - Some Issue with reading from STDOUT
+2023-11-01 10:57:15,260 - app.FFMPEGC - Thread-6 (enqueue_frame_buffer) - INFO - Some Issue with reading from STDOUT
+2023-11-01 10:57:15,260 - app.FFMPEGC - Thread-6 (enqueue_frame_buffer) - INFO - Some Issue with reading from STDOUT
+2023-11-01 10:57:15,260 - app.FFMPEGC - Thread-6 (enqueue_frame_buffer) - INFO - Some Issue with reading from STDOUT
+2023-11-01 10:57:15,260 - app.FFMPEGC - Thread-6 (enqueue_frame_buffer) - INFO - Some Issue with reading from STDOUT
+2023-11-01 10:57:15,260 - app.FFMPEGC - Thread-6 (enqueue_frame_buffer) - INFO - Some Issue with reading from STDOUT

@@ -72,7 +72,7 @@ if __name__=="__main__":
     
     while True:
         logger.info("Object pool size :- {} ".format(len(rtsp_object_list)))
-        print(rtsp_object_list,len(rtsp_object_list))
+        # print(rtsp_object_list,len(rtsp_object_list))
         for rtsp_object,rtspob_event,camera_config in rtsp_object_list:
             logger.info("Queue Thread Status :- {}".format(rtsp_object.QueueThread.is_alive()))
             if(rtsp_object.QueueThread.is_alive() == False):
@@ -81,7 +81,7 @@ if __name__=="__main__":
                 # rtsp_object.DequeueThread.join()
                 logger.info("Removing Failed Object from Object Group")
                 if [rtsp_object,rtspob_event,camera_config] in rtsp_object_list:
-                    print("Check and remove rtsp object")
+                    # print("Check and remove rtsp object")
                     rtsp_object_list.remove([rtsp_object,rtspob_event,camera_config])
                 logger.info("Begin Respwaning FFMPEG Capture Object")
                 rtspob,rtspobevent = kill_and_respawn_FFMPEG_thread(inferob,api,camera_config)

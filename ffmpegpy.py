@@ -27,7 +27,7 @@ class FFMPEGC():
             self.logger.info("fps: {}".format(cap_info['r_frame_rate']))
             self.width = cap_info['width']          
             self.height = cap_info['height']
-            print(self.width,self.height)
+            # print(self.width,self.height)
             up, down = str(cap_info['r_frame_rate']).split('/')
             fps = eval(up) / eval(down)
             print("fps: {}".format(fps))   
@@ -52,6 +52,7 @@ class FFMPEGC():
             try:
                 in_bytes = self.process1.stdout.read(self.width * self.height * 3)   
                 if not in_bytes:
+                    self.logger.info("Some Issue with reading from STDOUT")
                     continue
                 
                 Frame = (
