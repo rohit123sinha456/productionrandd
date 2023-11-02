@@ -1141,3 +1141,502 @@
 2023-10-13 10:43:39,002 - app - MainThread - INFO - Respwaning FFMPEG Capture Object
 2023-10-13 10:43:39,002 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera11
 2023-10-13 10:43:39,002 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Sheraton123@10.111.111.214:554/Streaming/Channels/101/
+2023-10-31 16:36:33,513 - app - MainThread - INFO - Begin Creating FFMPEG RTSP Stream Capture Object Group
+2023-10-31 16:36:33,514 - app - MainThread - INFO - Creating FFMPEG RTSP Stream Capture Object Group
+2023-10-31 16:36:33,514 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera191
+2023-10-31 16:36:33,514 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Admin@123@192.168.1.191:554/h265/ch1/main/av_stream
+2023-10-31 16:36:34,504 - app.FFMPEGC - MainThread - INFO - fps: 25/1
+2023-10-31 16:36:34,505 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera242
+2023-10-31 16:36:34,505 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Admin@123@192.168.1.242:554/h265/ch1/main/av_stream
+2023-10-31 16:36:35,473 - app.FFMPEGC - MainThread - INFO - fps: 25/1
+2023-10-31 16:36:35,473 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera198
+2023-10-31 16:36:35,473 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Admin@123@192.168.1.198:554/h265/ch1/main/av_stream
+2023-10-31 16:36:36,462 - app.FFMPEGC - MainThread - INFO - fps: 25/1
+2023-10-31 16:36:36,464 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera207
+2023-10-31 16:36:36,464 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Admin@123@192.168.1.207:554/h265/ch1/main/av_stream
+2023-10-31 16:36:37,458 - app.FFMPEGC - MainThread - INFO - fps: 25/1
+2023-10-31 16:36:37,458 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera189
+2023-10-31 16:36:37,458 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Admin@123@192.168.1.189:554/h265/ch1/main/av_stream
+2023-10-31 16:36:38,432 - app.FFMPEGC - MainThread - INFO - fps: 25/1
+2023-10-31 16:36:38,432 - app - MainThread - INFO - FFMPEG RTSP Stream Capture Object Group of size 5 is created
+2023-10-31 16:36:38,436 - app - MainThread - INFO - Object pool size :- 5 
+2023-10-31 16:36:38,438 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:36:38,438 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:36:38,438 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:36:38,438 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:36:38,438 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:36:41,314 - app.FFMPEGC - Thread-11 (enqueue_frame_buffer) - ERROR - Problem with Processing
+2023-10-31 16:36:41,314 - app.FFMPEGC - Thread-11 (enqueue_frame_buffer) - ERROR - 'Conv' object has no attribute 'bn'
+2023-10-31 16:36:41,314 - app.FFMPEGC - Thread-15 (enqueue_frame_buffer) - ERROR - Problem with Processing
+2023-10-31 16:36:41,314 - app.FFMPEGC - Thread-14 (enqueue_frame_buffer) - ERROR - Problem with Processing
+2023-10-31 16:36:41,314 - app.FFMPEGC - Thread-15 (enqueue_frame_buffer) - ERROR - 'Conv' object has no attribute 'bn'
+2023-10-31 16:36:41,315 - app.FFMPEGC - Thread-14 (enqueue_frame_buffer) - ERROR - 'Conv' object has no attribute 'bn'
+2023-10-31 16:36:41,315 - app.FFMPEGC - Thread-13 (enqueue_frame_buffer) - ERROR - Problem with Processing
+2023-10-31 16:36:41,315 - app.FFMPEGC - Thread-13 (enqueue_frame_buffer) - ERROR - 'Conv' object has no attribute 'bn'
+2023-10-31 16:36:43,826 - urllib3.connectionpool - Thread-36 (func) - DEBUG - Starting new HTTPS connection (1): www.google-analytics.com:443
+2023-10-31 16:36:44,531 - urllib3.connectionpool - Thread-36 (func) - DEBUG - https://www.google-analytics.com:443 "POST /mp/collect?measurement_id=G-X8NCJYTQXM&api_secret=QLQrATrNSwGRFRLE-cbHJw HTTP/1.1" 204 0
+2023-10-31 16:36:47,011 - app.FFMPEGC - Thread-15 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-31 16:36:47,087 - app.API - Thread-15 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-31 16:36:47,098 - urllib3.connectionpool - Thread-15 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): localhost:4002
+2023-10-31 16:36:47,133 - urllib3.connectionpool - Thread-15 (enqueue_frame_buffer) - DEBUG - http://localhost:4002 "POST /api/v1/upload HTTP/1.1" 200 278
+2023-10-31 16:36:47,133 - app.API - Thread-15 (enqueue_frame_buffer) - INFO - Image Saved in server with name :- 
+2023-10-31 16:36:47,135 - urllib3.connectionpool - Thread-15 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): localhost:4002
+2023-10-31 16:36:47,272 - urllib3.connectionpool - Thread-15 (enqueue_frame_buffer) - DEBUG - http://localhost:4002 "POST /api/v1/upload/save HTTP/1.1" 200 186
+2023-10-31 16:36:47,272 - app.API - Thread-15 (enqueue_frame_buffer) - INFO - Image Updated in Server Database
+2023-10-31 16:36:47,272 - app.API - Thread-15 (enqueue_frame_buffer) - INFO - b'{"status":true,"statusCode":200,"message":"Data saved!","data":{"fieldCount":0,"affectedRows":1,"insertId":135,"info":"","serverStatus":2,"warningStatus":0,"changedRows":0},"token":null}'
+2023-10-31 16:36:47,273 - app.FFMPEGC - Thread-15 (enqueue_frame_buffer) - INFO - Image Successfully Sent to Server
+2023-10-31 16:37:38,439 - app - MainThread - INFO - Object pool size :- 5 
+2023-10-31 16:37:38,441 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:37:38,441 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:37:38,441 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:37:38,441 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:37:38,441 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:37:43,939 - urllib3.connectionpool - Thread-37 (func) - DEBUG - Starting new HTTPS connection (1): www.google-analytics.com:443
+2023-10-31 16:37:44,809 - urllib3.connectionpool - Thread-37 (func) - DEBUG - https://www.google-analytics.com:443 "POST /mp/collect?measurement_id=G-X8NCJYTQXM&api_secret=QLQrATrNSwGRFRLE-cbHJw HTTP/1.1" 204 0
+2023-10-31 16:38:38,442 - app - MainThread - INFO - Object pool size :- 5 
+2023-10-31 16:38:38,445 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:38:38,447 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:38:38,451 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:38:38,451 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:38:38,451 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:38:44,614 - urllib3.connectionpool - Thread-38 (func) - DEBUG - Starting new HTTPS connection (1): www.google-analytics.com:443
+2023-10-31 16:38:45,279 - urllib3.connectionpool - Thread-38 (func) - DEBUG - https://www.google-analytics.com:443 "POST /mp/collect?measurement_id=G-X8NCJYTQXM&api_secret=QLQrATrNSwGRFRLE-cbHJw HTTP/1.1" 204 0
+2023-10-31 16:39:38,452 - app - MainThread - INFO - Object pool size :- 5 
+2023-10-31 16:39:38,454 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:39:38,455 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:39:38,457 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:39:38,458 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:39:38,458 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:39:45,219 - urllib3.connectionpool - Thread-39 (func) - DEBUG - Starting new HTTPS connection (1): www.google-analytics.com:443
+2023-10-31 16:39:45,786 - urllib3.connectionpool - Thread-39 (func) - DEBUG - https://www.google-analytics.com:443 "POST /mp/collect?measurement_id=G-X8NCJYTQXM&api_secret=QLQrATrNSwGRFRLE-cbHJw HTTP/1.1" 204 0
+2023-10-31 16:40:38,461 - app - MainThread - INFO - Object pool size :- 5 
+2023-10-31 16:40:38,468 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:40:38,468 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:40:38,468 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:40:38,468 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:40:38,468 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:40:45,992 - urllib3.connectionpool - Thread-40 (func) - DEBUG - Starting new HTTPS connection (1): www.google-analytics.com:443
+2023-10-31 16:40:46,676 - urllib3.connectionpool - Thread-40 (func) - DEBUG - https://www.google-analytics.com:443 "POST /mp/collect?measurement_id=G-X8NCJYTQXM&api_secret=QLQrATrNSwGRFRLE-cbHJw HTTP/1.1" 204 0
+2023-10-31 16:41:38,470 - app - MainThread - INFO - Object pool size :- 5 
+2023-10-31 16:41:38,472 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:41:38,474 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:41:38,476 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:41:38,476 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:41:38,476 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:41:46,334 - urllib3.connectionpool - Thread-41 (func) - DEBUG - Starting new HTTPS connection (1): www.google-analytics.com:443
+2023-10-31 16:41:46,958 - urllib3.connectionpool - Thread-41 (func) - DEBUG - https://www.google-analytics.com:443 "POST /mp/collect?measurement_id=G-X8NCJYTQXM&api_secret=QLQrATrNSwGRFRLE-cbHJw HTTP/1.1" 204 0
+2023-10-31 16:42:38,479 - app - MainThread - INFO - Object pool size :- 5 
+2023-10-31 16:42:38,483 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:42:38,483 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:42:38,483 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:42:38,483 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:42:38,483 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:42:47,091 - urllib3.connectionpool - Thread-42 (func) - DEBUG - Starting new HTTPS connection (1): www.google-analytics.com:443
+2023-10-31 16:42:47,731 - urllib3.connectionpool - Thread-42 (func) - DEBUG - https://www.google-analytics.com:443 "POST /mp/collect?measurement_id=G-X8NCJYTQXM&api_secret=QLQrATrNSwGRFRLE-cbHJw HTTP/1.1" 204 0
+2023-10-31 16:43:38,485 - app - MainThread - INFO - Object pool size :- 5 
+2023-10-31 16:43:38,488 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:43:38,489 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:43:38,490 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:43:38,490 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:43:38,490 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:43:47,987 - urllib3.connectionpool - Thread-43 (func) - DEBUG - Starting new HTTPS connection (1): www.google-analytics.com:443
+2023-10-31 16:43:48,525 - urllib3.connectionpool - Thread-43 (func) - DEBUG - https://www.google-analytics.com:443 "POST /mp/collect?measurement_id=G-X8NCJYTQXM&api_secret=QLQrATrNSwGRFRLE-cbHJw HTTP/1.1" 204 0
+2023-10-31 16:44:38,493 - app - MainThread - INFO - Object pool size :- 5 
+2023-10-31 16:44:38,496 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:44:38,497 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:44:38,499 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:44:38,501 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:44:38,502 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:45:38,504 - app - MainThread - INFO - Object pool size :- 5 
+2023-10-31 16:45:38,507 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:45:38,508 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:45:38,510 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:45:38,511 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:45:38,511 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:46:38,514 - app - MainThread - INFO - Object pool size :- 5 
+2023-10-31 16:46:38,517 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:46:38,517 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:46:38,517 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:46:38,517 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:46:38,517 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:47:38,520 - app - MainThread - INFO - Object pool size :- 5 
+2023-10-31 16:47:38,522 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:47:38,524 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:47:38,525 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:47:38,525 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:47:38,525 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:48:38,528 - app - MainThread - INFO - Object pool size :- 5 
+2023-10-31 16:48:38,531 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:48:38,532 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:48:38,534 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:48:38,535 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:48:38,535 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:49:38,544 - app - MainThread - INFO - Object pool size :- 5 
+2023-10-31 16:49:38,550 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:49:38,552 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:49:38,554 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:49:38,555 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:49:38,555 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:50:38,562 - app - MainThread - INFO - Object pool size :- 5 
+2023-10-31 16:50:38,565 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:50:38,566 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:50:38,567 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:50:38,569 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:50:38,569 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:51:38,570 - app - MainThread - INFO - Object pool size :- 5 
+2023-10-31 16:51:38,571 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:51:38,572 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:51:38,574 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:51:38,575 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:51:38,576 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:52:38,579 - app - MainThread - INFO - Object pool size :- 5 
+2023-10-31 16:52:38,579 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:52:38,579 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:52:38,580 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:52:38,580 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:52:38,580 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:53:38,581 - app - MainThread - INFO - Object pool size :- 5 
+2023-10-31 16:53:38,583 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:53:38,583 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:53:38,583 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:53:38,583 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:53:38,583 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:54:38,586 - app - MainThread - INFO - Object pool size :- 5 
+2023-10-31 16:54:38,588 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:54:38,588 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:54:38,588 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:54:38,588 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:54:38,589 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:55:38,592 - app - MainThread - INFO - Object pool size :- 5 
+2023-10-31 16:55:38,595 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:55:38,595 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:55:38,595 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:55:38,595 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:55:38,595 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:56:38,597 - app - MainThread - INFO - Object pool size :- 5 
+2023-10-31 16:56:38,598 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:56:38,600 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:56:38,601 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:56:38,601 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:56:38,602 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:57:38,603 - app - MainThread - INFO - Object pool size :- 5 
+2023-10-31 16:57:38,607 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:57:38,607 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:57:38,607 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:57:38,607 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:57:38,607 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:58:38,608 - app - MainThread - INFO - Object pool size :- 5 
+2023-10-31 16:58:38,613 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:58:38,614 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:58:38,616 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:58:38,616 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:58:38,616 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:59:38,617 - app - MainThread - INFO - Object pool size :- 5 
+2023-10-31 16:59:38,620 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:59:38,620 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:59:38,620 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:59:38,620 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 16:59:38,620 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:00:38,621 - app - MainThread - INFO - Object pool size :- 5 
+2023-10-31 17:00:38,621 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:00:38,621 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:00:38,621 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:00:38,621 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:00:38,621 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:01:38,630 - app - MainThread - INFO - Object pool size :- 5 
+2023-10-31 17:01:38,630 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:01:38,630 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:01:38,630 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:01:38,630 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:01:38,630 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:02:38,639 - app - MainThread - INFO - Object pool size :- 5 
+2023-10-31 17:02:38,639 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:02:38,639 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:02:38,639 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:02:38,639 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:02:38,639 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:03:38,640 - app - MainThread - INFO - Object pool size :- 5 
+2023-10-31 17:03:38,640 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:03:38,640 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:03:38,640 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:03:38,640 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:03:38,640 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:04:38,647 - app - MainThread - INFO - Object pool size :- 5 
+2023-10-31 17:04:38,647 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:04:38,647 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:04:38,647 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:04:38,647 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:04:38,647 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:05:38,655 - app - MainThread - INFO - Object pool size :- 5 
+2023-10-31 17:05:38,655 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:05:38,655 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:05:38,655 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:05:38,655 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:05:38,655 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:06:38,659 - app - MainThread - INFO - Object pool size :- 5 
+2023-10-31 17:06:38,659 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:06:38,659 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:06:38,659 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:06:38,659 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:06:38,659 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:07:38,669 - app - MainThread - INFO - Object pool size :- 5 
+2023-10-31 17:07:38,669 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:07:38,669 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:07:38,669 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:07:38,669 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:07:38,669 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:08:38,674 - app - MainThread - INFO - Object pool size :- 5 
+2023-10-31 17:08:38,674 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:08:38,674 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:08:38,674 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:08:38,674 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:08:38,674 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:09:38,684 - app - MainThread - INFO - Object pool size :- 5 
+2023-10-31 17:09:38,684 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:09:38,684 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:09:38,684 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:09:38,684 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:09:38,684 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:10:38,697 - app - MainThread - INFO - Object pool size :- 5 
+2023-10-31 17:10:38,697 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:10:38,697 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:10:38,697 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:10:38,697 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:10:38,697 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:11:38,701 - app - MainThread - INFO - Object pool size :- 5 
+2023-10-31 17:11:38,701 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:11:38,701 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:11:38,701 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:11:38,701 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:11:38,701 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:12:38,702 - app - MainThread - INFO - Object pool size :- 5 
+2023-10-31 17:12:38,702 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:12:38,702 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:12:38,702 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:12:38,702 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:12:38,702 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:13:38,711 - app - MainThread - INFO - Object pool size :- 5 
+2023-10-31 17:13:38,711 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:13:38,711 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:13:38,711 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:13:38,711 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:13:38,711 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:14:44,297 - app - MainThread - INFO - Begin Creating FFMPEG RTSP Stream Capture Object Group
+2023-10-31 17:14:44,297 - app - MainThread - INFO - Creating FFMPEG RTSP Stream Capture Object Group
+2023-10-31 17:14:44,297 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera191
+2023-10-31 17:14:44,297 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Admin@123@192.168.1.191:554/h265/ch1/main/av_stream
+2023-10-31 17:14:45,687 - app.FFMPEGC - MainThread - INFO - fps: 301/12
+2023-10-31 17:14:45,687 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera242
+2023-10-31 17:14:45,687 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Admin@123@192.168.1.242:554/h265/ch1/main/av_stream
+2023-10-31 17:14:46,890 - app.FFMPEGC - MainThread - INFO - fps: 301/12
+2023-10-31 17:14:46,890 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera198
+2023-10-31 17:14:46,890 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Admin@123@192.168.1.198:554/h265/ch1/main/av_stream
+2023-10-31 17:14:48,187 - app.FFMPEGC - MainThread - INFO - fps: 25/1
+2023-10-31 17:14:48,187 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera207
+2023-10-31 17:14:48,187 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Admin@123@192.168.1.207:554/h265/ch1/main/av_stream
+2023-10-31 17:14:49,499 - app.FFMPEGC - MainThread - INFO - fps: 25/1
+2023-10-31 17:14:49,499 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream for camera :- Camera189
+2023-10-31 17:14:49,499 - app.FFMPEGC - MainThread - INFO - Begin Probing RTSP Stream with url :- rtsp://admin:Admin@123@192.168.1.189:554/h265/ch1/main/av_stream
+2023-10-31 17:14:50,594 - app.FFMPEGC - MainThread - INFO - fps: 25/1
+2023-10-31 17:14:50,594 - app - MainThread - INFO - FFMPEG RTSP Stream Capture Object Group of size 5 is created
+2023-10-31 17:14:50,594 - app - MainThread - INFO - Object pool size :- 5 
+2023-10-31 17:14:50,594 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:14:50,594 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:14:50,594 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:14:50,594 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:14:50,594 - app - MainThread - INFO - Queue Thread Status :- True
+2023-10-31 17:14:54,053 - app.FFMPEGC - Thread-12 (enqueue_frame_buffer) - ERROR - Problem with Processing
+2023-10-31 17:14:54,053 - app.FFMPEGC - Thread-12 (enqueue_frame_buffer) - ERROR - 'Conv' object has no attribute 'bn'
+2023-10-31 17:14:54,053 - app.FFMPEGC - Thread-13 (enqueue_frame_buffer) - ERROR - Problem with Processing
+2023-10-31 17:14:54,053 - app.FFMPEGC - Thread-13 (enqueue_frame_buffer) - ERROR - 'Conv' object has no attribute 'bn'
+2023-10-31 17:14:54,053 - app.FFMPEGC - Thread-14 (enqueue_frame_buffer) - ERROR - Problem with Processing
+2023-10-31 17:14:54,053 - app.FFMPEGC - Thread-14 (enqueue_frame_buffer) - ERROR - 'Conv' object has no attribute 'bn'
+2023-10-31 17:14:54,709 - urllib3.connectionpool - Thread-34 (func) - DEBUG - Starting new HTTPS connection (1): www.google-analytics.com:443
+2023-10-31 17:14:55,412 - urllib3.connectionpool - Thread-34 (func) - DEBUG - https://www.google-analytics.com:443 "POST /mp/collect?measurement_id=G-X8NCJYTQXM&api_secret=QLQrATrNSwGRFRLE-cbHJw HTTP/1.1" 204 0
+2023-10-31 17:15:02,383 - app.FFMPEGC - Thread-11 (enqueue_frame_buffer) - INFO - Saving Image to Local Storage
+2023-10-31 17:15:02,477 - app.API - Thread-11 (enqueue_frame_buffer) - INFO - Begin Sending Data to API Server
+2023-10-31 17:15:02,493 - urllib3.connectionpool - Thread-11 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): localhost:4002
+2023-10-31 17:15:02,540 - urllib3.connectionpool - Thread-11 (enqueue_frame_buffer) - DEBUG - http://localhost:4002 "POST /api/v1/upload HTTP/1.1" 200 278
+2023-10-31 17:15:02,540 - app.API - Thread-11 (enqueue_frame_buffer) - INFO - Image Saved in server with name :- 
+2023-10-31 17:15:02,540 - urllib3.connectionpool - Thread-11 (enqueue_frame_buffer) - DEBUG - Starting new HTTP connection (1): localhost:4002
+2023-10-31 17:15:02,680 - urllib3.connectionpool - Thread-11 (enqueue_frame_buffer) - DEBUG - http://localhost:4002 "POST /api/v1/upload/save HTTP/1.1" 200 186
+2023-10-31 17:15:02,680 - app.API - Thread-11 (enqueue_frame_buffer) - INFO - Image Updated in Server Database
+2023-10-31 17:15:02,680 - app.API - Thread-11 (enqueue_frame_buffer) - INFO - b'{"status":true,"statusCode":200,"message":"Data saved!","data":{"fieldCount":0,"affectedRows":1,"insertId":136,"info":"","serverStatus":2,"warningStatus":0,"changedRows":0},"token":null}'
+2023-10-31 17:15:02,680 - app.FFMPEGC - Thread-11 (enqueue_frame_buffer) - INFO - Image Successfully Sent to Server
+2023-11-02 12:50:17,007 - urllib3.connectionpool - Thread-35 (func) - DEBUG - Starting new HTTPS connection (1): www.google-analytics.com:443
+2023-11-02 12:50:17,038 - urllib3.connectionpool - Thread-37 (func) - DEBUG - Starting new HTTPS connection (1): www.google-analytics.com:443
+2023-11-02 12:50:17,056 - urllib3.connectionpool - Thread-36 (func) - DEBUG - Starting new HTTPS connection (1): www.google-analytics.com:443
+2023-11-02 12:50:25,460 - app - MainThread - INFO - Object pool size :- 5 
+2023-11-02 12:50:25,460 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:50:25,460 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:50:25,460 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:50:25,460 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:50:25,460 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:51:25,463 - app - MainThread - INFO - Object pool size :- 5 
+2023-11-02 12:51:25,463 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:51:25,463 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:51:25,463 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:51:25,463 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:51:25,463 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:52:25,478 - app - MainThread - INFO - Object pool size :- 5 
+2023-11-02 12:52:25,484 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:52:25,486 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:52:25,489 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:52:25,491 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:52:25,493 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:53:25,496 - app - MainThread - INFO - Object pool size :- 5 
+2023-11-02 12:53:25,500 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:53:25,502 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:53:25,503 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:53:25,504 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:53:25,506 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:54:25,508 - app - MainThread - INFO - Object pool size :- 5 
+2023-11-02 12:54:25,509 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:54:25,510 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:54:25,510 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:54:25,510 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:54:25,510 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:55:25,511 - app - MainThread - INFO - Object pool size :- 5 
+2023-11-02 12:55:25,514 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:55:25,514 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:55:25,514 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:55:25,514 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:55:25,514 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:56:25,515 - app - MainThread - INFO - Object pool size :- 5 
+2023-11-02 12:56:25,517 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:56:25,518 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:56:25,519 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:56:25,519 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:56:25,519 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:57:25,522 - app - MainThread - INFO - Object pool size :- 5 
+2023-11-02 12:57:25,524 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:57:25,525 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:57:25,525 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:57:25,525 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:57:25,525 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:58:25,525 - app - MainThread - INFO - Object pool size :- 5 
+2023-11-02 12:58:25,529 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:58:25,529 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:58:25,529 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:58:25,529 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:58:25,529 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:59:25,529 - app - MainThread - INFO - Object pool size :- 5 
+2023-11-02 12:59:25,530 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:59:25,531 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:59:25,531 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:59:25,531 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 12:59:25,531 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:00:25,533 - app - MainThread - INFO - Object pool size :- 5 
+2023-11-02 13:00:25,536 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:00:25,536 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:00:25,536 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:00:25,536 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:00:25,536 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:01:25,537 - app - MainThread - INFO - Object pool size :- 5 
+2023-11-02 13:01:25,539 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:01:25,539 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:01:25,539 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:01:25,539 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:01:25,539 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:02:25,541 - app - MainThread - INFO - Object pool size :- 5 
+2023-11-02 13:02:25,543 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:02:25,544 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:02:25,546 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:02:25,546 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:02:25,546 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:03:25,546 - app - MainThread - INFO - Object pool size :- 5 
+2023-11-02 13:03:25,547 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:03:25,547 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:03:25,547 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:03:25,547 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:03:25,547 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:04:25,549 - app - MainThread - INFO - Object pool size :- 5 
+2023-11-02 13:04:25,550 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:04:25,550 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:04:25,550 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:04:25,550 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:04:25,550 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:05:25,552 - app - MainThread - INFO - Object pool size :- 5 
+2023-11-02 13:05:25,558 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:05:25,559 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:05:25,560 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:05:25,562 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:05:25,564 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:06:25,566 - app - MainThread - INFO - Object pool size :- 5 
+2023-11-02 13:06:25,568 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:06:25,568 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:06:25,568 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:06:25,568 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:06:25,568 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:07:25,569 - app - MainThread - INFO - Object pool size :- 5 
+2023-11-02 13:07:25,571 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:07:25,571 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:07:25,571 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:07:25,572 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:07:25,572 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:08:25,574 - app - MainThread - INFO - Object pool size :- 5 
+2023-11-02 13:08:25,577 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:08:25,577 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:08:25,577 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:08:25,577 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:08:25,577 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:09:25,579 - app - MainThread - INFO - Object pool size :- 5 
+2023-11-02 13:09:25,580 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:09:25,581 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:09:25,581 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:09:25,581 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:09:25,581 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:10:25,582 - app - MainThread - INFO - Object pool size :- 5 
+2023-11-02 13:10:25,585 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:10:25,585 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:10:25,585 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:10:25,585 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:10:25,585 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:11:25,587 - app - MainThread - INFO - Object pool size :- 5 
+2023-11-02 13:11:25,588 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:11:25,588 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:11:25,588 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:11:25,588 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:11:25,588 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:12:25,590 - app - MainThread - INFO - Object pool size :- 5 
+2023-11-02 13:12:25,592 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:12:25,592 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:12:25,592 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:12:25,592 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:12:25,592 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:13:25,593 - app - MainThread - INFO - Object pool size :- 5 
+2023-11-02 13:13:25,594 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:13:25,594 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:13:25,594 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:13:25,594 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:13:25,594 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:14:25,595 - app - MainThread - INFO - Object pool size :- 5 
+2023-11-02 13:14:25,596 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:14:25,597 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:14:25,597 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:14:25,597 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:14:25,597 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:15:25,598 - app - MainThread - INFO - Object pool size :- 5 
+2023-11-02 13:15:25,599 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:15:25,600 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:15:25,600 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:15:25,600 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:15:25,600 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:16:25,600 - app - MainThread - INFO - Object pool size :- 5 
+2023-11-02 13:16:25,605 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:16:25,607 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:16:25,607 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:16:25,607 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:16:25,607 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:17:25,608 - app - MainThread - INFO - Object pool size :- 5 
+2023-11-02 13:17:25,610 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:17:25,610 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:17:25,611 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:17:25,611 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:17:25,611 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:18:25,612 - app - MainThread - INFO - Object pool size :- 5 
+2023-11-02 13:18:25,615 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:18:25,615 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:18:25,615 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:18:25,615 - app - MainThread - INFO - Queue Thread Status :- True
+2023-11-02 13:18:25,615 - app - MainThread - INFO - Queue Thread Status :- True
