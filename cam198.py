@@ -66,6 +66,15 @@ class TESTFFMPEGC():
                 if not in_bytes:
                     self.logger.info("Some Issue with reading from STDOUT")
                     time.sleep(20)
+                    self.process1.terminate()
+                    time.sleep(10)
+                    self.process1 = (
+                        ffmpeg
+                        .input(self.rtsp_url, **self.args)
+                        .output('pipe:', format='rawvideo', pix_fmt='bgr24')
+                        .overwrite_output()
+                        .run_async(pipe_stdout=True)
+                    )
                     continue
                 
                 Frame = (
