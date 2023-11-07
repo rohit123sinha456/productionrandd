@@ -3,8 +3,8 @@ models:
   detection: "model311023"
 
 url:
-  upload: 'http://10.12.1.151:4002/api/v1/upload'
-  save: 'http://10.12.1.151:4002/api/v1/upload/save'
+  upload: 'http://localhost:4002/api/v1/upload'
+  save: 'http://localhost:4002/api/v1/upload/save'
 
 output:
   folder: 'images'
