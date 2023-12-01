@@ -1,0 +1,10 @@
+2023-11-07 15:25:41,870 - tensorflow - MainThread - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2023-11-07 15:25:42,593 - h5py._conv - MainThread - DEBUG - Creating converter from 7 to 5
+2023-11-07 15:25:42,593 - h5py._conv - MainThread - DEBUG - Creating converter from 5 to 7
+2023-11-07 15:25:42,593 - h5py._conv - MainThread - DEBUG - Creating converter from 7 to 5
+2023-11-07 15:25:42,593 - h5py._conv - MainThread - DEBUG - Creating converter from 5 to 7
+2023-11-07 15:25:48,787 - urllib3.connectionpool - Thread-5 (func) - DEBUG - Starting new HTTPS connection (1): www.google-analytics.com:443
+2023-11-07 15:25:49,102 - urllib3.connectionpool - Thread-5 (func) - DEBUG - https://www.google-analytics.com:443 "POST /mp/collect?measurement_id=G-X8NCJYTQXM&api_secret=QLQrATrNSwGRFRLE-cbHJw HTTP/1.1" 204 0
+2023-11-07 15:25:54,638 - cam1 - MainThread - INFO - Saving Image to Local Storage
+2023-11-07 15:25:54,654 - app.API - MainThread - INFO - Begin Sending Data to API Server
+2023-11-07 15:25:54,670 - urllib3.connectionpool - MainThread - DEBUG - Starting new HTTP connection (1): 10.12.1.151:4002

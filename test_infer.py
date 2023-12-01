@@ -65,14 +65,15 @@ class Infer:
                     color = (0,255,0)
                 else:
                     color = (0,0,255) # Red for no Helmet
-                    self.new_nonhelmet.append(id)
-                    # print(self.new_nonhelmet)
-                    Frame = cv2.rectangle(
-                            Frame,
-                            (xyxy[0], xyxy[1]),
-                            (xyxy[2], xyxy[3]),
-                            color,
-                            self.thickness
-                        )
-                    return Frame
+                    if(id not in self.new_nonhelmet): # remove this if to remove tracking
+                        self.new_nonhelmet.append(id)
+                        # print(self.new_nonhelmet)
+                        Frame = cv2.rectangle(
+                                Frame,
+                                (xyxy[0], xyxy[1]),
+                                (xyxy[2], xyxy[3]),
+                                color,
+                                self.thickness
+                            )
+                        return Frame
         return None

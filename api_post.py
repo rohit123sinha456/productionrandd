@@ -2,6 +2,9 @@ import requests
 import yaml
 import os
 import logging
+import cv2
+import numpy as np
+
 class API:
     def __init__(self):
         self.logger = logging.getLogger('app.API')
@@ -12,11 +15,23 @@ class API:
         self.image_folder = self.config['output']['folder']
         # logging.basicConfig(filename=os.path.join('.', 'logs', 'api_posting.log'),format='%(asctime)s:%(levelname)s: %(message)s')
 
+    def check_corrupation(self,filepath):
+        img = cv2.imread(filepath)
+        filesize = os.stat(filepath).st_size/(1024)
+        image_median = np.median(img)
+        # print(filepath,filesize,image_median)
+        if(filesize < 400 and image_median > 110):
+            return True
+        else:
+            return False
+        
     def posting(self,filename,camera_config):
         imgencode = ""
         x = ""
         self.logger.info("Begin Sending Data to API Server")
         filepath = filename #os.path.join('.', self.image_folder, filename)
+        if(self.check_corrupation(filepath) == True):
+            return
         with open(filepath, "rb") as img_file:
             try:
                 x = requests.post(self.url, files= {"image": img_file})

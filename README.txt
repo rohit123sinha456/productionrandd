@@ -19,3 +19,11 @@ pip 22.3.1
     - Environment Path=<path to ffmpeg_bin>
 4. Then start the service as nssm start "service Name"
 5. Check windows services if its running and startup type is automatic. Check logs to see the status
+
+
+
+New Approach ( by Saroj Sir)
+
+Create New service for each camera.
+cam1 is for camera1
+and so on. in the code file change the RTSP URLS
