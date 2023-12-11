@@ -15,9 +15,9 @@ class TESTFFMPEGC():
         
         self.camera_config = {
             "dept_name": "Manufacturing",
-            "camera": "Camera191",
+            "camera": "Camera126",
             "alarm_type": "Warning",
-            "rtsp_url" : "rtsp://admin:Admin@123@192.168.20.108:554/h265/ch1/main/av_stream"
+            "rtsp_url" : "rtsp://admin:Admin@123@192.168.20.126:554/h265/ch1/main/av_stream"
         }
         logging.basicConfig(filename=self.camera_config['camera']+'.log', level=logging.DEBUG, format='%(asctime)s - %(name)s - %(threadName)s - %(levelname)s - %(message)s')
         self.logger = logging.getLogger(self.camera_config['camera'])

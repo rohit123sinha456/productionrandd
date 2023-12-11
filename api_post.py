@@ -20,7 +20,7 @@ class API:
         filesize = os.stat(filepath).st_size/(1024)
         image_median = np.median(img)
         # print(filepath,filesize,image_median)
-        if(filesize < 400 and image_median > 110):
+        if(filesize < 750 and image_median > 110):
             return True
         else:
             return False

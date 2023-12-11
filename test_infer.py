@@ -26,10 +26,10 @@ class Infer:
         self.threshold = 0.5
         self.ClassName = {0: 'Helmet', 1: 'No Helmet'}
         self.color = (0,0,255)
-        self.thickness = 2
+        self.thickness = 4
         self.fontscale = 0.5
         # Generate output
-        self.new_nonhelmet = collections.deque(maxlen=50)
+        self.new_nonhelmet = collections.deque(maxlen=350)
 
     def detection(self,Frame):
         results = self.Model.predict(Frame,verbose=False)
@@ -64,7 +64,7 @@ class Infer:
                 if(cls == 0):
                     color = (0,255,0)
                 else:
-                    color = (0,0,255) # Red for no Helmet
+                    color = (0,255,255) # Red for no Helmet
                     if(id not in self.new_nonhelmet): # remove this if to remove tracking
                         self.new_nonhelmet.append(id)
                         # print(self.new_nonhelmet)
